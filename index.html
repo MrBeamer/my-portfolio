@@ -2,9 +2,75 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    />
     <title>Document</title>
   </head>
   <body>
-    <h1>Hello World</h1>
+    <center>
+      <nav class="navbar">
+        <div class="nav-logo">
+          <img
+            class="navbar-logo"
+            src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1610988952/portfolio/ihxksogju1vefvisr2jz.svg"
+            alt="logo"
+          />
+        </div>
+        <div class="nav-items">
+          <ul>
+            <li class="animation-jump"><a href="/about.html">About</a></li>
+            <li class="animation-jump"><a href="/work.html">Work</a></li>
+            <li class="animation-jump"><a href="/contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </center>
+    <div class="box">
+      <div class="content">
+        <div id="left-content">
+          <h1 class="typed-headline"><span id="typed-name"></span></h1>
+          <p class="description">
+            I make web apps and websites for a living. If you want me to do any
+            one of these for you, get in touch with me here.
+          </p>
+          <a class="btn" href="/cv.html">Learn more</a>
+          <a class="btn" href="/contact.html">Contact me</a>
+          <div class="social-links">
+            <a href="mailto:beamermichael@googlemail.com" target="_blank">
+              <i class="far fa-envelope"></i>
+            </a>
+            <a href="www.linkedin.com/in/michael-beamer"
+              ><i class="fab fa-linkedin" target="_blank"></i
+            ></a>
+            <a href="https://github.com/MrBeamer" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <i
+              class="fas fa-copyright"
+              title="Copyright © 2021 Michael Beamer. All
+              rights reserved."
+            ></i>
+          </div>
+        </div>
+
+        <div id="right-content">
+          <img
+            class="avatar"
+            src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1611001377/portfolio/jojjbjlb3zinssmexsjj.gif"
+            alt="michael-coding"
+          />
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="/main.js"></script>
   </body>
 </html>
