@@ -127,3 +127,20 @@
   background-color: #67d3b4;
   transition: background 0.2s ease-in;
 }
+
+.btn-big {
+  display: inline-block;
+  border: 1px solid #35b993;
+  border-radius: 5px;
+  padding: 12px 221px;
+  background-color: transparent;
+  color: 35b993;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.btn-big:hover {
+  background-color: #35b993;
+  transition: background 0.2s ease-in;
+  color: white;
+}
