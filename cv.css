@@ -1,0 +1,127 @@
+body {
+  background-color: #edf0f2;
+}
+
+.move-right {
+}
+
+.projects-headline {
+  font-size: 2rem;
+  /* padding-left: 150px; */
+}
+
+/* Basic moves */
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+}
+
+.space-bellow {
+  margin-bottom: 9px;
+}
+
+/* CV  content left */
+
+/* Image section */
+
+.cv {
+  margin: 60px auto;
+  background-color: white;
+  color: #373841;
+  border-radius: 5px;
+  width: 76%;
+}
+
+.cv-image {
+  width: 272px;
+  height: 268px;
+}
+
+.cv-image-background {
+  background-color: #35b993;
+  padding: 100px;
+  height: 641px;
+  border-radius: 5px 0 0 0;
+}
+
+.cv-image-background h1 {
+  font-size: 3.5rem;
+}
+
+.move-up {
+  margin-top: -22px;
+}
+
+/* Profile section */
+
+.cv-profile-background {
+  background-color: #373841;
+  color: white;
+  height: 1167px;
+  padding-top: 20px;
+}
+
+.cv-profile-tag {
+  border-bottom: 5px solid #35b993;
+  margin: 20px 34px 24px 34px;
+  /* margin-left: 34px;
+  margin-right: 34px;
+  margin-bottom: 24px;
+  margin-top: 20px; */
+}
+
+.cv-profile-section i {
+  margin-left: 34px;
+  margin-bottom: 18px;
+  font-size: 1.5rem;
+}
+
+.cv-profile-section span {
+  margin-left: 20px;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+/* CV content right */
+.right-cv-content {
+  border-radius: 5px;
+}
+
+.cv-section {
+  margin-left: 60px;
+  border-bottom: 5px solid #35b993;
+}
+
+.special-padding {
+  padding-top: 57px;
+}
+.special-padding-bottom {
+  padding-bottom: 80px;
+}
+
+.cv-date {
+  margin-right: 26px;
+  margin-left: 60px;
+}
+
+.cv-destination {
+  margin-top: 40px;
+}
+
+.cv-work-experience ul {
+  margin-left: 79px;
+}
+
+.cv-work-experience li {
+  margin-top: 15px;
+}
+
+/* Resume download btn */
+
+.resume-download .btn {
+  margin-left: 60px;
+}

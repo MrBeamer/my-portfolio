@@ -5,9 +5,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-.box {
-}
-
 /* Navbar */
 
 .navbar {
@@ -45,8 +42,6 @@
 .navbar a:hover {
   text-decoration: none;
   color: #6a6a6a;
-  transform: translateY(-0.4rem);
-  transition: transform 150ms;
 }
 
 .animation-jump:hover {
