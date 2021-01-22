@@ -1,4 +1,4 @@
-// import Typed from "typed.js";
+"use strict";
 const typedNameEl = document.getElementById("typed-name");
 if (typedNameEl) {
   new Typed("#typed-name", {

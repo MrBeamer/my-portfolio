@@ -4,6 +4,7 @@ body {
 
 .project-cards {
   margin-top: 40px;
+  margin-bottom: 40px;
   padding-left: 150px;
   padding-right: 150px;
   display: grid;
@@ -32,7 +33,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* border-top: 1px solid black; */
 }
 
 .project-card-links a {

@@ -1,0 +1,56 @@
+.container {
+  margin-top: 40px;
+
+  display: flex;
+}
+
+.contact-box {
+  padding-left: 150px;
+  width: 50%;
+  padding-right: 15px;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control {
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.submit {
+  border: none;
+  margin-top: 10px;
+}
+
+.contact-img {
+  width: 72%;
+}
+
+.contact-info p {
+  margin-bottom: 25px;
+}
+
+label {
+  margin-bottom: 0.5rem;
+}
+
+.contact-img-container {
+  margin-left: 90px;
+}
+
+.contact-info h1 {
+  margin-bottom: 8px;
+}
+
+.contact-info p {
+  letter-spacing: 0.2;
+}
