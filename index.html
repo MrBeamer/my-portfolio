@@ -33,26 +33,44 @@
         </div>
         <div class="nav-items">
           <ul>
-            <li><a href="/cv.html">CV</a></li>
+            <div class="nav-desktop">
+              <li><a href="/cv.html">CV</a></li>
+              <li>
+                <a href="/projects.html">Projects</a>
+              </li>
+              <li><a href="/contact.html">Contact</a></li>
+              <!-- test -->
+            </div>
             <li>
-              <a href="/projects.html">Projects</a>
+              <div class="dropdown">
+                <a class="burger-menu"> <i class="fa fa-bars"></i></a>
+                <!-- dropdown list items will show when we click the drop button -->
+                <div id="list-items">
+                  <a href="/cv.html">CV</a>
+                  <a href="/projects.html">Projects</a>
+                  <a href="/contact.html">Contact</a>
+                </div>
+              </div>
             </li>
-            <li><a href="/contact.html">Contact</a></li>
+            <!-- test -->
           </ul>
         </div>
       </nav>
     </center>
+    <!-- navbar ends -->
     <div class="box">
       <div class="content">
         <div id="left-content">
           <div class="typed-text">
             <h1 class="typed-headline"><span id="typed-name"></span></h1>
           </div>
+
           <p class="description">
             My tech stack is JavaScript, Ruby on Rails, HTML, CSS and React. I
             use VSCode and Git to make web apps and websites. If you want me to
             do any one of these for you, get in touch with me here.
           </p>
+
           <a class="btn" href="/cv.html">Learn more</a>
           <a class="btn" href="/contact.html">Contact me</a>
           <div class="social-links">
