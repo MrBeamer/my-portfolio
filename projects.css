@@ -52,6 +52,35 @@ body {
   color: white;
 }
 
+/* .intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+.intro span {
+  color: #35b993;
+}
+
+.tech-stack {
+  padding-left: 150px;
+  display: flex;
+}
+
+.projects-h1 {
+  color: #373841;
+  margin-top: 40px;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-bottom: 30px;
+  font-weight: normal;
+}
+
+.tech-stack img {
+  height: 70px;
+  margin-right: 10px;
+}
+
 /* Smallest device */
 @media (min-width: 100px) and (max-width: 575px) {
   .project-cards {

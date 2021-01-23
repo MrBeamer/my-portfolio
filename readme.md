@@ -1,6 +1,6 @@
 ## General info
 
-🌎 My portfolio website 🌎
+🛠 Work progress - My portfolio website 🌎
 
 ## Technologies
 
@@ -11,5 +11,3 @@ Project is created with:
 - AOS.js
 
 ## Live Preview
-
-https://michaelbeamer.de
