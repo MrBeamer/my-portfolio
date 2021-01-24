@@ -5,6 +5,13 @@
   font-family: "Poppins", sans-serif;
 }
 
+
+.page-container {
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+
 /* Navbar */
 
 .navbar {
@@ -117,13 +124,13 @@
   margin-top: 23%;
 }
 
-#left-content i {
+.social-links  i {
   margin-right: 15px;
   font-size: 30px;
   color: #b9355b;
 }
 
-#left-content i:hover {
+.social-links i:hover {
   color: #d36786;
   transform: translateY(-0.4rem);
   transition: transform 150ms;

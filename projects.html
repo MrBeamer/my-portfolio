@@ -1,7 +1,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=devaaice-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="projects.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -28,55 +28,30 @@
         </div>
         <div class="nav-items">
           <ul>
-            <li><a href="/cv.html">CV</a></li>
+            <div class="nav-desktop">
+              <li><a href="/cv.html">CV</a></li>
+              <li>
+                <a href="/projects.html">Projects</a>
+              </li>
+              <li><a href="/contact.html">Contact</a></li>
+              <!-- test -->
+            </div>
             <li>
-              <a href="/projects.html">Projects</a>
+              <div class="dropdown">
+                <a class="burger-menu"> <i class="fa fa-bars"></i></a>
+                <!-- dropdown list items will show when we click the drop button -->
+                <div id="list-items">
+                  <a href="/cv.html">CV</a>
+                  <a href="/projects.html">Projects</a>
+                  <a href="/contact.html">Contact</a>
+                </div>
+              </div>
             </li>
-            <li><a href="/contact.html">Contact</a></li>
+            <!-- test -->
           </ul>
         </div>
       </nav>
     </center>
-
-    <!-- <div class="intro">
-      <h1 class="projects-h1">My Tech Stack</h1>
-      <div class="tech-stack">
-        <img
-          src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
-          alt=""
-        />
-
-        <img
-          src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
-          alt=""
-        />
-
-        <img
-          src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
-          alt=""
-        />
-
-        <img
-          src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
-          alt=""
-        />
-
-        <img
-          src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/ruby/ruby.png"
-          alt=""
-        />
-
-        <img
-          src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png"
-          alt=""
-        />
-      </div>
-
-      <h1 class="projects-h1">
-        I like to <span>code</span> things from scratch, and enjoy bringing
-        ideas to life in the browser
-      </h1>
-    </div> -->
 
     <div class="project-cards">
       <div class="project-card">
@@ -153,6 +128,7 @@
         </div>
       </div>
     </div>
+
     <script src="/main.js"></script>
   </body>
 </html>
