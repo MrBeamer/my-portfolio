@@ -26,7 +26,7 @@
 }
 
 .navbar-logo {
-  height: 85%;
+  height: 85% !important;
 }
 
 .navbar ul {
@@ -59,7 +59,7 @@
 /* test */
 .dropdown {  
   position: relative;  
-  display: inline-block;  
+  display: block;  
 }  
 
 #list-items {  
@@ -83,8 +83,6 @@
 .burger-menu i{
   font-size: 40px;
 }
-
-
 
 /* typed js */
 

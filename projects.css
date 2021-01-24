@@ -24,6 +24,7 @@ body {
 }
 
 .project-card-img {
+  max-width: 100%;
   max-height: 320px;
   border-radius: 5px 5px 0 0;
   margin-bottom: 15px;
@@ -53,21 +54,6 @@ body {
   color: white;
 }
 
-/* .intro {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
-
-.intro span {
-  color: #35b993;
-}
-
-.tech-stack {
-  padding-left: 150px;
-  display: flex;
-}
-
 .projects-h1 {
   color: #373841;
   margin-top: 40px;
@@ -85,11 +71,13 @@ body {
 /* Smallest device */
 @media (min-width: 100px) and (max-width: 575px) {
   .project-cards {
+    max-width: 100%;
     /* grid-template-columns: 1fr; */
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .project-cards {
