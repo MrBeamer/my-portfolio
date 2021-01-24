@@ -54,3 +54,53 @@ label {
 .contact-info p {
   letter-spacing: 0.2;
 }
+
+form .social-links {
+  margin-top: 19%;
+}
+
+/* Smallest device */
+@media (min-width: 100px) and (max-width: 575px) {
+  .contact-box {
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+  }
+
+  .contact-img-container {
+    display: none;
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .project-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .project-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .project-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .project-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
