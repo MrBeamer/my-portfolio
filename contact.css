@@ -29,6 +29,11 @@
 .submit {
   border: none;
   margin-top: 10px;
+  -webkit-appearance: none;
+}
+
+input {
+  -webkit-appearance: none;
 }
 
 .contact-img {
@@ -59,12 +64,17 @@ form .social-links {
   margin-top: 19%;
 }
 
+a[href^="tel"] {
+  color: inherit;
+  text-decoration: none;
+}
+
 /* Smallest device */
 @media (min-width: 100px) and (max-width: 575px) {
   .contact-box {
-    padding-left: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
     width: 100%;
-    padding-right: 100px;
   }
 
   .contact-img-container {
@@ -81,9 +91,5 @@ form .social-links {
   }
   .contact-img-container {
     display: none;
-  }
-
-  .btn {
-    width: 40%;
   }
 }
