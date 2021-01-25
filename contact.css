@@ -70,11 +70,6 @@ form .social-links {
   .contact-img-container {
     display: none;
   }
-
-  .center {
-    display: flex;
-    justify-content: center;
-  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
