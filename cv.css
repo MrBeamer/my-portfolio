@@ -123,3 +123,76 @@ body {
   margin-left: 60px;
   margin-top: 53px;
 }
+
+@media (min-width: 100px) and (max-width: 575px) {
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .cv-image-background {
+    padding: 63px;
+    height: 350px;
+  }
+
+  .cv-image-background h1 {
+    font-size: 3rem;
+  }
+
+  .cv-image {
+    width: 229px;
+    height: auto;
+  }
+
+  .cv {
+    width: 100%;
+  }
+
+  .cv-profile-background {
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+  .cv-profile-tag {
+    font-size: 30px;
+  }
+
+  .cv-date {
+    margin-right: 0;
+    margin-left: 15px;
+  }
+
+  .cv-company-position p {
+    margin-left: 15px;
+  }
+
+  .cv-section {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .cv-work-experience ul {
+    margin-left: 35px;
+  }
+
+  .resume-download {
+    display: flex;
+    justify-content: center;
+  }
+
+  .resume-download .btn-big {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 10px 40px;
+  }
+
+  .special-padding {
+    padding-top: 46px;
+  }
+}
