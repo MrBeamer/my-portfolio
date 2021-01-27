@@ -25,7 +25,7 @@ function showHide() {
 
 btnBurger.addEventListener("click", showHide);
 
-// Alert long loading times
+// Alert for long loading times
 
 let btnsLive = document.querySelectorAll(".live-button");
 
