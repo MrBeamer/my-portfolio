@@ -202,8 +202,6 @@ html, body {
 }
 
 
-
-
 /* Navbar */
 
 .navbar {
@@ -214,11 +212,14 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* box-shadow: 0 0 1px rgb(0 65 94 / 20%); */
+}
+
+center {
+  box-shadow: 0 1.3px 2px -2px rgb(0 65 94 / 20%);
 }
 
 .navbar-logo {
-  height: 85% !important;
+  height: 100% !important;
 }
 
 .navbar ul {
@@ -351,7 +352,7 @@ html, body {
 .social-links  i {
   margin-right: 15px;
   font-size: 24px;
-  color: #b9355b;
+  color: #444;
 }
 
 .social-links i:hover {

@@ -38,3 +38,31 @@ function note() {
 btnsLive.forEach((button) => {
   button.addEventListener("click", note);
 });
+
+// Smooth scrolling
+
+// About
+
+const aboutBtn = document.querySelector(".about");
+
+aboutBtn.addEventListener("click", function (event) {
+  const aboutSection = document.querySelector("#about");
+  aboutSection.scrollIntoView({ behavior: "smooth" });
+});
+
+// Projects
+
+const projectsBtn = document.querySelector(".projects");
+
+projectsBtn.addEventListener("click", function (event) {
+  const projectsSection = document.querySelector("#projects");
+  projectsSection.scrollIntoView({ behavior: "smooth" });
+});
+
+// Contact
+const contactBtn = document.querySelector(".contact");
+
+contactBtn.addEventListener("click", function (event) {
+  const contactSection = document.querySelector("#contact");
+  contactSection.scrollIntoView({ behavior: "smooth" });
+});
