@@ -214,6 +214,7 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  /* box-shadow: 0 0 1px rgb(0 65 94 / 20%); */
 }
 
 .navbar-logo {
@@ -329,7 +330,8 @@ html, body {
 
 /* footer */
 .footer {
-  background: #f8f9fa;
+  /* background: #f8f9fa; */
+  box-shadow: 0 0 1px rgb(0 65 94 / 20%);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -374,14 +376,33 @@ html, body {
 .btn {
   display: inline-block;
   border-radius: 5px;
-  padding: 12px;
+  padding: 10px;
   background-color: #35b993;
   color: white;
   text-decoration: none;
   margin-right: 15px;
 }
 
+
 .btn:hover {
+  transform: translateY(-0.4rem);
+  transition: transform 150ms;
+  background-color: #67d3b4;
+  transition: background 0.2s ease-in;
+}
+
+.btn-submit {
+  width: 40%;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #35b993;
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.btn-submit:hover {
   transform: translateY(-0.4rem);
   transition: transform 150ms;
   background-color: #67d3b4;
@@ -392,7 +413,7 @@ html, body {
   display: inline-block;
   border-radius: 5px ;
   border: 1px solid #35b993;
-  padding: 12px;
+  padding: 9px;
   background-color: transparent;
   color: #35b993;
   text-decoration: none;
@@ -466,6 +487,14 @@ textarea:focus {
 @media (min-width: 100px) and (max-width: 575px) {
 
   .mouse_scroll{
+    display: none;
+  }
+
+  #projects {
+    margin-top: 75px;
+  }
+
+  .hero-headline  {
     display: none;
   }
 

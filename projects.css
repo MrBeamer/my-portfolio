@@ -19,7 +19,7 @@
   flex-direction: column;
   padding-bottom: 25px;
   border-radius: 5px;
-  background-color: white;
+  /* background-color: white; */
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
@@ -40,11 +40,11 @@
 .project-card-links a {
   text-decoration: none;
   margin-top: 15px;
-  padding: 10px;
+  padding: 6px;
   border: 1px solid #35b993;
   border-radius: 5px;
   color: #35b993;
-  width: 90%;
+  width: 60%;
   text-align: center;
 }
 
