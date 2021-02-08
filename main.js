@@ -43,26 +43,61 @@ btnsLive.forEach((button) => {
 
 // About
 
-const aboutBtn = document.querySelector(".about");
+// const aboutBtn = document.querySelector(".about");
 
-aboutBtn.addEventListener("click", function (event) {
-  const aboutSection = document.querySelector("#about");
-  aboutSection.scrollIntoView({ behavior: "smooth" });
-});
+// aboutBtn.addEventListener("click", function (event) {
+//   const aboutSection = document.querySelector("#about");
+//   aboutSection.scrollIntoView({ behavior: "smooth" });
+// });
 
-// Projects
+// // Projects
 
-const projectsBtn = document.querySelector(".projects");
+// const projectsBtn = document.querySelector(".projects");
 
-projectsBtn.addEventListener("click", function (event) {
-  const projectsSection = document.querySelector("#projects");
-  projectsSection.scrollIntoView({ behavior: "smooth" });
-});
+// projectsBtn.addEventListener("click", function (event) {
+//   const projectsSection = document.querySelector("#projects");
+//   projectsSection.scrollIntoView({ behavior: "smooth" });
+// });
 
-// Contact
-const contactBtn = document.querySelector(".contact");
+// // Contact
+// const contactBtn = document.querySelector(".contact");
 
-contactBtn.addEventListener("click", function (event) {
-  const contactSection = document.querySelector("#contact");
-  contactSection.scrollIntoView({ behavior: "smooth" });
+// contactBtn.addEventListener("click", function (event) {
+//   const contactSection = document.querySelector("#contact");
+//   contactSection.scrollIntoView({ behavior: "smooth" });
+// });
+
+document
+  .querySelector(".nav-desktop")
+  .addEventListener("click", function (event) {
+    event.preventDefault();
+
+    //matching strategy
+    if (event.target.classList.contains("nav-item")) {
+      const id = event.target.getAttribute("href");
+      document.querySelector(id).scrollIntoView({ behavior: "smooth" });
+    }
+  });
+
+// Revealing elements  / fade in
+const sections = document.querySelectorAll(".section");
+
+function revealSection(entries, observer) {
+  const [entry] = entries;
+
+  if (!entry.isIntersecting) return;
+  entry.target.classList.remove("section--hidden");
+  observer.unobserve(entry.target);
+}
+
+const revealOptions = {
+  root: null,
+  threshold: 0.15,
+};
+
+const sectionsObserver = new IntersectionObserver(revealSection, revealOptions);
+
+sections.forEach((section) => {
+  sectionsObserver.observe(section);
+  section.classList.add("section--hidden");
 });

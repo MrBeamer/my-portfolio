@@ -52,11 +52,11 @@
           <div class="nav-items">
             <ul>
               <div class="nav-desktop">
-                <li><a class="about">About</a></li>
+                <li><a class="nav-item" href="#about">About</a></li>
                 <li>
-                  <a class="projects">Projects</a>
+                  <a class="nav-item" href="#projects">Projects</a>
                 </li>
-                <li> <a class="contact">Contact</a></li>
+                <li> <a class="nav-item" href="#contact">Contact</a></li>
               </div>
               <li>
                 <div class="dropdown">
@@ -76,31 +76,32 @@
       <!-- navbar ends -->
 
       <!-- about me start -->
-
-      <div id="about" class="content">
-        <div id="left-content">
-          <div class="typed-text">
-            <h1 class="typed-headline"><span id="typed-name"></span></h1>
+      <section class="section" id="section--1">
+        <div id="about" class="content">
+          <div id="left-content">
+            <div class="typed-text">
+              <h1 class="typed-headline"><span id="typed-name"></span></h1>
+            </div>
+  
+            <p class="description">
+              My tech stack is JavaScript, Ruby on Rails, HTML, CSS and React.
+              Additionally I'm using VSCode and Git as tools to create web apps &
+              websites. Want to discuss a project or an opportunity? Get in touch
+              with me.
+            </p>
+            <a class="btn" href="assets/cv.pdf" download>Download CV</a>
+            <a class="btn-alternative" href="#contact">Contact me</a>
           </div>
-
-          <p class="description">
-            My tech stack is JavaScript, Ruby on Rails, HTML, CSS and React.
-            Additionally I'm using VSCode and Git as tools to create web apps &
-            websites. Want to discuss a project or an opportunity? Get in touch
-            with me.
-          </p>
-          <a class="btn" href="assets/cv.pdf" download>Download CV</a>
-          <a class="btn-alternative" href="#contact">Contact me</a>
+  
+          <div id="right-content">
+            <img
+              class="avatar"
+              src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1611760203/portfolio/undraw_web_developer_p3e5_imqzcn.svg"
+              alt="michael-coding"
+            />
+          </div>
         </div>
-
-        <div id="right-content">
-          <img
-            class="avatar"
-            src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1611760203/portfolio/undraw_web_developer_p3e5_imqzcn.svg"
-            alt="michael-coding"
-          />
-        </div>
-      </div>
+      </section>
 
       <!-- Scroll animation start -->
       <div class="mouse_scroll">
@@ -115,93 +116,96 @@
       </div>
 
       <!-- Projects starts -->
-      <div class="hero-headline"">
-        <h1> My Projects</h1>
-        <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.
-        </p>
-      </div>
-
-      <div id="projects" class="project-cards">
-        <div class="project-card">
-          <img
-            class="project-card-img"
-            src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1611262660/portfolio/cy2plyqpcugxyixhmp8b.png"
-            alt="portfolio-image"
-          />
-          <div class="project-card-links">
-            <a class="live-button" href="https://ateliers-celine.herokuapp.com/"
-              >Live Version</a
-            >
-            <a href="https://github.com/MrBeamer/ateliers-celine">View Code</a>
+      <section class="section" id="section--2">
+        <div class="hero-headline"">
+          <h1> My Projects</h1>
+          <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.
+          </p>
+        </div>
+  
+        <div id="projects" class="project-cards">
+          <div class="project-card">
+            <img
+              class="project-card-img"
+              src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1611262660/portfolio/cy2plyqpcugxyixhmp8b.png"
+              alt="portfolio-image"
+            />
+            <div class="project-card-links">
+              <a class="live-button" href="https://ateliers-celine.herokuapp.com/"
+                >Live Version</a
+              >
+              <a href="https://github.com/MrBeamer/ateliers-celine">View Code</a>
+            </div>
+          </div>
+  
+          <div class="project-card">
+            <img
+              class="project-card-img"
+              src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1611263084/portfolio/uhwj1vug0scc6q6p0gv5.png"
+              alt="portfolio-image"
+            />
+            <div class="project-card-links">
+              <a class="live-button" href="https://siplicious.herokuapp.com/"
+                >Live Version</a
+              >
+              <a href="https://github.com/MrBeamer/rails-mister-cocktail"
+                >View Code</a
+              >
+            </div>
+          </div>
+  
+          <div class="project-card">
+            <img
+              class="project-card-img"
+              src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1611263349/portfolio/oes5yxkusl8xyk2izohb.png"
+              alt="portfolio-image"
+            />
+            <div class="project-card-links">
+              <a class="live-button" href="https://game-on91.herokuapp.com/"
+                >Live Version</a
+              >
+              <a href="https://github.com/MrBeamer/game-on">View Code</a>
+            </div>
+          </div>
+  
+          <div class="project-card">
+            <img
+              class="project-card-img"
+              src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1612724480/portfolio/qewfgac0czz6f6zlsdfz.png"
+              alt="portfolio-image"
+            />
+            <div class="project-card-links">
+              <a href="https://www.michaelbeamer.de/">Live Version</a>
+              <a href="https://github.com/MrBeamer/my-portfolio">View Code</a>
+            </div>
+          </div>
+  
+          <div class="project-card">
+            <img
+              class="project-card-img"
+              src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1611408706/portfolio/yxaw7tnd29fboutpfwrg.png"
+              alt=""
+            />
+            <div class="project-card-links">
+              <a href="https://10-questions.netlify.app/">Live Version</a>
+              <a href="https://github.com/MrBeamer/quiz-game">View Code</a>
+            </div>
+          </div>
+  
+          <div class="project-card">
+            <img
+              class="project-card-img"
+              src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1611406480/portfolio/agqidhju6rdbpbgxdhlt.png"
+              alt="portfolio-image"
+            />
+            <div class="project-card-links">
+              <a href="https://memory-to-do-list.netlify.app">Live Version</a>
+              <a href="https://github.com/MrBeamer/to-do-list">View Code</a>
+            </div>
           </div>
         </div>
-
-        <div class="project-card">
-          <img
-            class="project-card-img"
-            src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1611263084/portfolio/uhwj1vug0scc6q6p0gv5.png"
-            alt="portfolio-image"
-          />
-          <div class="project-card-links">
-            <a class="live-button" href="https://siplicious.herokuapp.com/"
-              >Live Version</a
-            >
-            <a href="https://github.com/MrBeamer/rails-mister-cocktail"
-              >View Code</a
-            >
-          </div>
-        </div>
-
-        <div class="project-card">
-          <img
-            class="project-card-img"
-            src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1611263349/portfolio/oes5yxkusl8xyk2izohb.png"
-            alt="portfolio-image"
-          />
-          <div class="project-card-links">
-            <a class="live-button" href="https://game-on91.herokuapp.com/"
-              >Live Version</a
-            >
-            <a href="https://github.com/MrBeamer/game-on">View Code</a>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <img
-            class="project-card-img"
-            src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1612724480/portfolio/qewfgac0czz6f6zlsdfz.png"
-            alt="portfolio-image"
-          />
-          <div class="project-card-links">
-            <a href="https://www.michaelbeamer.de/">Live Version</a>
-            <a href="https://github.com/MrBeamer/my-portfolio">View Code</a>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <img
-            class="project-card-img"
-            src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1611408706/portfolio/yxaw7tnd29fboutpfwrg.png"
-            alt=""
-          />
-          <div class="project-card-links">
-            <a href="https://10-questions.netlify.app/">Live Version</a>
-            <a href="https://github.com/MrBeamer/quiz-game">View Code</a>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <img
-            class="project-card-img"
-            src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1611406480/portfolio/agqidhju6rdbpbgxdhlt.png"
-            alt="portfolio-image"
-          />
-          <div class="project-card-links">
-            <a href="https://memory-to-do-list.netlify.app">Live Version</a>
-            <a href="https://github.com/MrBeamer/to-do-list">View Code</a>
-          </div>
-        </div>
-      </div>
+      </section>
+   
 
       <!-- cv starts -->
       <div id="cv" class="page-container">
@@ -390,58 +394,60 @@
         </div>
       </div>
 
-      <!-- contact page-content starts -->
-      <div id="contact" class="container">
-        <div class="contact-box">
-          <div class="contact-info">
-            <h1>Let's Get In Touch.</h1>
-            <p>
-              Want to discuss a project, an idea, an opportunity? Just fill up
-              this form or write me an email
-            </p>
-          </div>
-          <form
-            name="contact"
-            id="contact-form"
-            method="post"
-            data-netlify="true"
-          >
-            <div class="form-group">
-              <label for="name">Name</label>
-              <input name="name" type="text" class="form-control" required />
-            </div>
-
-            <div class="form-group">
-              <label for="email">Email Address</label>
-              <input name="email" type="email" class="form-control" required />
-            </div>
-
-            <div class="form-group">
-              <label for="message">Your Message</label>
-              <textarea
-                name="message"
-                class="form-control"
-                rows="4"
-                required
-              ></textarea>
-            </div>
-
-            <input
-              type="submit"
-              class="form control submit btn-submit"
-              value="Send Message"
-            />
-          </form>
-        </div>
-        <div class="contact-img-container">
-          <img
-            class="contact-img"
-            src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1612647390/portfolio/undraw_emails_6uqr_ylpwzi.svg"
-            alt=""
-          />
-        </div>
+<section class="section" id="section--3">
+   <!-- contact page-content starts -->
+   <div id="contact" class="container">
+    <div class="contact-box">
+      <div class="contact-info">
+        <h1>Let's Get In Touch.</h1>
+        <p>
+          Want to discuss a project, an idea, an opportunity? Just fill up
+          this form or write me an email
+        </p>
       </div>
+      <form
+        name="contact"
+        id="contact-form"
+        method="post"
+        data-netlify="true"
+      >
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input name="name" type="text" class="form-control" required />
+        </div>
 
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input name="email" type="email" class="form-control" required />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Your Message</label>
+          <textarea
+            name="message"
+            class="form-control"
+            rows="4"
+            required
+          ></textarea>
+        </div>
+
+        <input
+          type="submit"
+          class="form control submit btn-submit"
+          value="Send Message"
+        />
+      </form>
+    </div>
+    <div class="contact-img-container">
+      <img
+        class="contact-img"
+        src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1612647390/portfolio/undraw_emails_6uqr_ylpwzi.svg"
+        alt=""
+      />
+    </div>
+  </div>
+</section>
+   
       <!-- footer starts -->
       <div class="footer">
         <div class="social-links">
