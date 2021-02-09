@@ -101,3 +101,51 @@ sections.forEach((section) => {
   sectionsObserver.observe(section);
   section.classList.add("section--hidden");
 });
+
+// Sticky navbar
+
+// const nav = document.querySelector(".navbar");
+// const header = document.querySelector(".header");
+
+// const navHeight = nav.getBoundingClientRect().height;
+
+// function stickyNav(entries, observer) {
+//   console.log(entries);
+//   const [entry] = entries;
+//   console.log(entry.intersectionRatio);
+//   if (!entry.isIntersecting) nav.classList.add("sticky");
+//   else nav.classList.remove("sticky");
+// }
+
+// const stickyOptions = {
+//   root: null,
+//   threshold: 0,
+//   rootMargin: `-${navHeight}px`, // height of the navigation bar, adds a visual margin between target and navbar
+// };
+
+// const headerObserver = new IntersectionObserver(stickyNav, stickyOptions);
+
+// headerObserver.observe(nav);
+
+// lazy img loading
+const imgTargets = document.querySelectorAll("img[data-src]");
+
+function loadImg(entries, observer) {
+  const [entry] = entries;
+  if (!entry.isIntersecting) return;
+  entry.target.src = entry.target.dataset.src;
+  // listen for the load event which happens in the background while javascript is chancing the img
+  entry.target.addEventListener("load", function () {
+    entry.target.classList.remove("lazy-img");
+  });
+  observer.unobserve(entry.target);
+}
+
+const imgOptions = {
+  root: null,
+  threshold: 0,
+};
+
+const imgObserver = new IntersectionObserver(loadImg, imgOptions);
+
+imgTargets.forEach((img) => imgObserver.observe(img));

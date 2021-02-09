@@ -37,6 +37,10 @@ html, body {
  transform: translateY(8rem);
 }
 
+.lazy-img {
+  filter: blur(6px);
+}
+
  /* scroll animation */
 
 *, *:before, *:after {
@@ -224,6 +228,11 @@ html, body {
   align-items: center;
   justify-content: space-between;
 }
+
+/* .navbar.sticky {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.95);
+} */
 
 center {
   box-shadow: 0 1.3px 2px -2px rgb(0 65 94 / 20%);
@@ -503,11 +512,15 @@ textarea:focus {
     display: none;
   }
 
+  .section{
+    border-top: none;
+  }
+
   #projects {
     margin-top: 75px;
   }
 
-  .hero-headline  {
+  .hero-headline p {
     display: none;
   }
 
