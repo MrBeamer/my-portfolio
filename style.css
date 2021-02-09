@@ -503,6 +503,10 @@ textarea:focus {
     display: none;
   }
 
+  .section {
+    border-top: none;
+  }
+
   #projects {
     margin-top: 75px;
   }
