@@ -3,8 +3,8 @@
   width: 100%;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
-  /* transition: transform 1.5s, opacity 1s; */
 }
+
 .image-container .after {
   position: absolute;
   top: 0;
@@ -29,10 +29,9 @@
   padding-left: 150px;
   padding-right: 150px;
   display: grid;
-  /* grid-template-columns: 1fr 1fr; */
   min-height: 100vh;
   grid-template-rows: auto 1fr auto;
-  grid-gap: 16px;
+  grid-gap: 22px;
 }
 
 .project-card {
