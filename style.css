@@ -526,6 +526,20 @@ textarea:focus {
     margin-top: 10vh !important;
     font-size: 2.5em !important;
   }
+
+  .btn,
+  .btn-alternative {
+    display: block;
+    text-align: center;
+  }
+
+  .btn {
+    margin-bottom: 20px;
+  }
+
+  .btn-submit {
+    width: 100%;
+  }
 }
 
 /* iphone 8 */

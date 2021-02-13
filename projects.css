@@ -29,7 +29,7 @@
   padding-left: 150px;
   padding-right: 150px;
   display: grid;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   grid-template-rows: auto 1fr auto;
   grid-gap: 22px;
 }
