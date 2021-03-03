@@ -29,7 +29,6 @@
   padding-left: 150px;
   padding-right: 150px;
   display: grid;
-  /* min-height: 100vh; */
   grid-template-rows: auto 1fr auto;
   grid-gap: 22px;
 }
@@ -83,6 +82,7 @@
     height: 187px;
   }
 }
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .project-cards {
