@@ -1,6 +1,29 @@
 {
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "My Portfolio",
+  "main": "index.html",
   "dependencies": {
-    "live-server": "^1.2.1",
+    "izitoast": "^1.4.0",
+    "postcss": "^8.2.8",
+    "style.css": "^1.0.0",
     "typed.js": "^2.0.11"
-  }
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-nightly.625"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrBeamer/my-portfolio.git"
+  },
+  "author": "Michael Beamer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrBeamer/my-portfolio/issues"
+  },
+  "homepage": "https://github.com/MrBeamer/my-portfolio#readme"
 }

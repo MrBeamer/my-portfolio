@@ -1,67 +1,69 @@
-"use strict";
+'use strict';
+
+import izitoast from 'izitoast';
 
 // Type.Js integration
 
-const typedNameEl = document.getElementById("typed-name");
+const typedNameEl = document.getElementById('typed-name');
 if (typedNameEl) {
-  new Typed("#typed-name", {
-    strings: ["Hi", "I'm Michael."],
+  new Typed('#typed-name', {
+    strings: ['Hi', "I'm Michael."],
     typeSpeed: 90,
   });
 }
 
 // Drop down menu
 
-const btnBurger = document.querySelector(".burger-menu");
+const btnBurger = document.querySelector('.burger-menu');
 
 function showHide() {
-  let click = document.getElementById("list-items");
-  if (click.style.display === "none") {
-    click.style.display = "block";
+  let click = document.getElementById('list-items');
+  if (click.style.display === 'none') {
+    click.style.display = 'block';
   } else {
-    click.style.display = "none";
+    click.style.display = 'none';
   }
 }
 
-btnBurger.addEventListener("click", showHide);
+btnBurger.addEventListener('click', showHide);
 
 // Alert for long loading times
 
-let btnsLive = document.querySelectorAll(".live-button");
+let btnsLive = document.querySelectorAll('.live-button');
 
 function note() {
   alert(
-    "Websites - long loading times can occure, because heroku is sleeping and needs time to wake up!"
+    'Websites - long loading times can occure, because heroku is sleeping and needs time to wake up!'
   );
 }
 
-btnsLive.forEach((button) => {
-  button.addEventListener("click", note);
+btnsLive.forEach(button => {
+  button.addEventListener('click', note);
 });
 
 // Smooth scrolling
 
 document
-  .querySelector(".nav-desktop")
-  .addEventListener("click", function (event) {
+  .querySelector('.nav-desktop')
+  .addEventListener('click', function (event) {
     event.preventDefault();
 
     //matching strategy
-    if (event.target.classList.contains("nav-item")) {
-      const id = event.target.getAttribute("href");
-      document.querySelector(id).scrollIntoView({ behavior: "smooth" });
+    if (event.target.classList.contains('nav-item')) {
+      const id = event.target.getAttribute('href');
+      document.querySelector(id).scrollIntoView({ behavior: 'smooth' });
     }
   });
 
 // Revealing elements  / fade in
 
-const sections = document.querySelectorAll(".section");
+const sections = document.querySelectorAll('.section');
 
 function revealSection(entries, observer) {
   const [entry] = entries;
 
   if (!entry.isIntersecting) return;
-  entry.target.classList.remove("section--hidden");
+  entry.target.classList.remove('section--hidden');
   observer.unobserve(entry.target);
 }
 
@@ -72,7 +74,7 @@ const revealOptions = {
 
 const sectionsObserver = new IntersectionObserver(revealSection, revealOptions);
 
-sections.forEach((section) => {
+sections.forEach(section => {
   sectionsObserver.observe(section);
-  section.classList.add("section--hidden");
+  section.classList.add('section--hidden');
 });
