@@ -19,6 +19,8 @@
   "homepage": "https://github.com/MrBeamer/my-portfolio#readme",
   "dependencies": {
     "izitoast": "^1.4.0",
+    "materialize": "^1.0.0",
+    "materialize-css": "^1.0.0-rc.2",
     "parcel-bundler": "^1.12.5",
     "style.css": "^1.0.0",
     "typed.js": "^2.0.11"

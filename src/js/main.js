@@ -1,5 +1,6 @@
 import * as iziToast from "izitoast";
 import Typed from "typed.js";
+import Materialize from "materialize";
 
 // Type.Js integration
 
