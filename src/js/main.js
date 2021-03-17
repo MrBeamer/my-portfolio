@@ -1,4 +1,5 @@
-"use strict";
+import * as iziToast from "izitoast";
+import Typed from "typed.js";
 
 // Type.Js integration
 
@@ -30,8 +31,20 @@ btnBurger.addEventListener("click", showHide);
 let btnsLive = document.querySelectorAll(".live-button");
 
 function note() {
+  // testing izitoast
+  // iziToast.info({
+  //   title: "Info:",
+  //   message:
+  //     "Long loading times can occure, because heroku is sleeping and needs time to wake up!",
+  //   position: "topCenter",
+  //   color: "green",
+
+  //   onClosed: function (instance, toast, closedBy) {
+  //     console.info("Closed | closedBy: " + closedBy);
+  //   },
+  // });
   alert(
-    "Websites - long loading times can occure, because heroku is sleeping and needs time to wake up!"
+    "Info: Long loading times can occure, because heroku is sleeping and needs time to wake up!"
   );
 }
 
