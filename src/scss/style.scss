@@ -11,6 +11,7 @@
   --color-primary-lighter: #67d3b4;
   --color-secondary: #b9355b;
   --color-secondary-lighter: #d36786;
+  --color-font-primary: #6c757d;
 }
 
 html,
@@ -19,19 +20,20 @@ body {
   width: 100%;
 }
 
-.page-container {
-  display: grid;
-  min-height: 100vh;
-  grid-template-rows: auto 1fr auto;
+.hero-headline {
+  color: var(--color-primary);
+  font-weight: 500;
 }
 
 .section {
-  border-top: 0.5px solid #ddd;
+  // border-top: 0.5px solid #ddd;
   transition: transform 1.5s, opacity 1s;
+  padding: 100px 150px;
 }
 
 #section--1 {
   border-top: none;
+  padding-top: 15px;
 }
 
 .section--hidden {
@@ -39,7 +41,17 @@ body {
   transform: translateY(8rem);
 }
 
-/* Navbar */
+.mouse {
+  cursor: pointer;
+}
+
+/* typed js */
+
+.typed-cursor {
+  display: none;
+}
+
+// Navbar
 
 .navbar {
   width: 80vw;
@@ -78,7 +90,7 @@ center {
 
 .navbar a:hover {
   text-decoration: none;
-  color: var(--color-secondary);
+  border-bottom: 2px solid var(--color-primary);
 }
 
 .animation-jump:hover {
@@ -114,30 +126,6 @@ center {
   font-size: 40px;
 }
 
-/* typed js */
-
-.typed-cursor {
-  display: none;
-}
-
-/* headlines */
-
-.hero-headline {
-  display: flex;
-  flex-direction: column;
-  padding-left: 150px;
-  padding-top: 30px;
-}
-
-.hero-headline h1 {
-  margin-bottom: 10px;
-  font-size: 3em;
-}
-
-.hero-headline p {
-  letter-spacing: 1.2;
-}
-
 /* content */
 
 .content {
@@ -148,8 +136,8 @@ center {
 /* left content */
 
 #left-content {
-  padding-left: 150px;
   width: 45%;
+  margin-right: 30px;
 }
 
 #left-content p {
@@ -201,12 +189,13 @@ center {
 
 /* right content */
 #right-content {
-  width: 50%;
+  width: 54%;
 }
 
 .avatar {
   margin-top: 50px;
   width: 90%;
+  width: 100%;
   border-radius: 5px;
 }
 
@@ -214,7 +203,7 @@ center {
 
 .btn {
   display: inline-block;
-  border-radius: 5px;
+  border-radius: 4px;
   padding: 10px;
   background-color: var(--color-primary);
   color: white;
@@ -232,7 +221,7 @@ center {
 .btn-submit {
   width: 40%;
   display: inline-block;
-  border-radius: 5px;
+  border-radius: 4px;
   padding: 10px;
   background-color: var(--color-primary);
   color: white;
@@ -249,7 +238,7 @@ center {
 
 .btn-alternative {
   display: inline-block;
-  border-radius: 5px;
+  border-radius: 4px;
   border: 1px solid var(--color-primary);
   padding: 9px;
   background-color: transparent;
@@ -269,7 +258,7 @@ center {
 .btn-big {
   display: inline-block;
   border: 1px solid var(--color-primary);
-  border-radius: 5px;
+  border-radius: 4px;
   padding: 12px 221px;
   background-color: transparent;
   color: 35b993;
@@ -299,163 +288,188 @@ textarea:focus {
   box-shadow: 0 0 2px var(--color-primary);
 }
 
-/* media */
+// /* media */
 
-/* iphone 5 */
-@media (width: 320px) {
-  .typed-headline {
-    margin-top: 10vh !important;
-    font-size: 2.5em !important;
-  }
+// /* iphone 5 */
+// @media (width: 320px) {
+//   .typed-headline {
+//     margin-top: 10vh !important;
+//     font-size: 2.5em !important;
+//   }
 
-  .btn,
-  .btn-alternative {
-    display: block;
-    text-align: center;
-  }
+//   .btn,
+//   .btn-alternative {
+//     display: block;
+//     text-align: center;
+//   }
 
-  .btn {
-    margin-bottom: 20px;
-  }
+//   .btn {
+//     margin-bottom: 20px;
+//   }
 
-  .btn-submit {
-    width: 100%;
+//   .btn-submit {
+//     width: 100%;
+//   }
+// }
+
+// /* iphone 8 */
+// @media (width: 375px) {
+//   .typed-headline {
+//     margin-top: 15vh !important;
+//   }
+// }
+
+// /* Smallest device */
+// @media (min-width: 100px) and (max-width: 575px) {
+//   .mouse_scroll {
+//     display: none;
+//   }
+
+//   .section {
+//     border-top: none;
+//   }
+
+//   #projects {
+//     margin-top: 75px;
+//   }
+
+//   .hero-headline {
+//     display: none;
+//   }
+
+//   .nav-desktop {
+//     display: none;
+//   }
+//   #right-content {
+//     display: none;
+//   }
+//   #left-content {
+//     width: 100%;
+//     padding-left: 30px;
+//   }
+
+//   .typed-headline {
+//     margin-top: 20vh;
+//     font-size: 3em;
+//   }
+
+//   .typed-text {
+//     height: 75px;
+//   }
+
+//   .footer-copyright {
+//     display: none;
+//   }
+
+//   .footer {
+//     /* margin-top: 67px; */
+//     padding: 0px 0px;
+//     justify-content: center !important;
+//   }
+// }
+
+// /* Small devices (landscape phones, 576px and up) */
+// @media (min-width: 576px) and (max-width: 767px) {
+//   .dropdown {
+//     display: none;
+//   }
+
+//   #left-content {
+//     padding-left: 100px;
+//     width: 100%;
+//   }
+
+//   #right-content {
+//     display: none;
+//   }
+// }
+
+// /* Medium devices (tablets, 768px and up) */
+// @media (min-width: 768px) and (max-width: 991px) {
+//   .dropdown {
+//     display: none;
+//   }
+
+//   #left-content {
+//     padding-left: 100px;
+//     padding-right: 100px;
+//     width: 100%;
+//   }
+
+//   #right-content {
+//     display: none;
+//   }
+// }
+
+// /* Large devices (desktops, 992px and up) */
+// @media (min-width: 992px) and (max-width: 1199px) {
+//   .dropdown {
+//     display: none;
+//   }
+
+//   #left-content {
+//     padding-left: 110px;
+//     width: 53%;
+//   }
+
+//   .avatar {
+//     width: 100%;
+//   }
+
+//   #right-content {
+//     width: 36%;
+//   }
+
+//   .typed-headline {
+//     font-size: 3.5em;
+//   }
+// }
+
+// /* Extra large devices (large desktops, 1200px and up) */
+// @media (min-width: 1200px) {
+//   .dropdown {
+//     display: none;
+//   }
+
+//   #left-content {
+//     padding-left: 143px;
+//     width: 53%;
+//   }
+
+//   .avatar {
+//     width: 100%;
+//   }
+
+//   #right-content {
+//     width: 36%;
+//   }
+
+//   .typed-headline {
+//     font-size: 3.5em;
+//   }
+// }
+
+.dropdown {
+  display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  .nav-items .dropdown {
+    display: none;
   }
 }
 
-/* iphone 8 */
-@media (width: 375px) {
-  .typed-headline {
-    margin-top: 15vh !important;
-  }
-}
-
-/* Smallest device */
-@media (min-width: 100px) and (max-width: 575px) {
-  .mouse_scroll {
-    display: none;
-  }
-
-  .section {
-    border-top: none;
-  }
-
-  #projects {
-    margin-top: 75px;
-  }
-
-  .hero-headline {
-    display: none;
-  }
-
-  .nav-desktop {
-    display: none;
-  }
-  #right-content {
-    display: none;
-  }
-  #left-content {
-    width: 100%;
-    padding-left: 30px;
-  }
-
-  .typed-headline {
-    margin-top: 20vh;
-    font-size: 3em;
-  }
-
-  .typed-text {
-    height: 75px;
-  }
-
-  .footer-copyright {
-    display: none;
-  }
-
-  .footer {
-    /* margin-top: 67px; */
-    padding: 0px 0px;
-    justify-content: center !important;
-  }
-}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767px) {
-  .dropdown {
-    display: none;
-  }
-
-  #left-content {
-    padding-left: 100px;
-    width: 100%;
-  }
-
-  #right-content {
+// Small tablet, to big tablet from 768 - 1023 px
+@media only screen and (max-width: 1023px) {
+  .nav-items .dropdown {
     display: none;
   }
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991px) {
-  .dropdown {
-    display: none;
-  }
-
-  #left-content {
-    padding-left: 100px;
-    padding-right: 100px;
-    width: 100%;
-  }
-
-  #right-content {
-    display: none;
-  }
+// Small phones, to small tablets from 481 - 767 px
+@media only screen and (max-width: 767px) {
 }
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199px) {
-  .dropdown {
-    display: none;
-  }
-
-  #left-content {
-    padding-left: 110px;
-    width: 53%;
-  }
-
-  .avatar {
-    width: 100%;
-  }
-
-  #right-content {
-    width: 36%;
-  }
-
-  .typed-headline {
-    font-size: 3.5em;
-  }
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  .dropdown {
-    display: none;
-  }
-
-  #left-content {
-    padding-left: 143px;
-    width: 53%;
-  }
-
-  .avatar {
-    width: 100%;
-  }
-
-  #right-content {
-    width: 36%;
-  }
-
-  .typed-headline {
-    font-size: 3.5em;
-  }
+// Small phones from 0 - 480 px
+@media only screen and (max-width: 480px) {
 }

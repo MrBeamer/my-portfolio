@@ -1,0 +1,19 @@
+.skills-grid {
+  display: grid;
+  grid-template-columns: auto repeat(4, 1fr);
+  grid-column-gap: 20px;
+
+  ul {
+    list-style: none;
+  }
+
+  li {
+    margin: 3px 0;
+  }
+}
+
+.skill-item {
+  h3 {
+    font-weight: 500;
+  }
+}
