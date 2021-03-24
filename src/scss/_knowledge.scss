@@ -7,7 +7,7 @@
 .knowledge__item {
   border: 2px dotted var(--color-font-primary);
   padding: 1rem;
-  transition: background-color 1s, color 1s;
+  transition: background-color 0.5s, color 0.5s;
 
   h2 {
     display: inline-block;
@@ -19,6 +19,10 @@
     font-size: 1.2rem;
     margin: 10px 0;
     margin-right: 5px;
+  }
+  p {
+    font-weight: 200;
+    letter-spacing: 2px;
   }
 }
 

@@ -5,7 +5,6 @@
 
 .contact-box {
   width: 50%;
-  padding-right: 15px;
 }
 
 #contact-form {
@@ -36,10 +35,14 @@ input {
 
 .contact-info p {
   margin-bottom: 25px;
+  font-weight: 200;
+  letter-spacing: 2px;
 }
 
 label {
   margin-bottom: 0.5rem;
+  letter-spacing: 2px;
+  font-weight: 300;
 }
 
 .contact-img-container {
@@ -58,32 +61,4 @@ form .social-links {
   margin-top: 19%;
 }
 
-/* Smallest device */
-@media (min-width: 100px) and (max-width: 575px) {
-  .contact-box {
-    padding-left: 30px;
-    padding-right: 30px;
-    width: 100%;
-  }
-
-  .contact-img-container {
-    display: none;
-  }
-
-  .container {
-    margin-top: 35px;
-    margin-bottom: 35px;
-  }
-}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 1054px) {
-  .contact-box {
-    padding-left: 100px;
-    width: 100%;
-    padding-right: 100px;
-  }
-  .contact-img-container {
-    display: none;
-  }
-}
+//letter spacing is missing for h3 hero headlines
