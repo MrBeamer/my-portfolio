@@ -7,6 +7,43 @@
 
 // Small tablet, to big tablet from 768 - 1023 px
 @media only screen and (max-width: 1023px) {
+  .section {
+    padding: 50px 35px;
+  }
+
+  .knowledge__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 22px;
+  }
+
+  .skills-grid {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: auto auto;
+    grid-row-gap: 22px;
+    .hero-box {
+      grid-column: 1/3;
+    }
+    .marginFix {
+      margin-left: 0;
+    }
+  }
+
+  .project-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 22px;
+  }
+
+  #right-content {
+    display: none;
+  }
+
+  #left-content {
+    width: 100%;
+    margin-right: 0;
+  }
 }
 
 // Small phones, to small tablets from 481 - 767 px
@@ -50,20 +87,15 @@
 
   .skills-grid {
     display: grid;
+    grid-column-gap: 20px;
     grid-template-columns: 1fr 1fr;
     grid-row-gap: 22px;
     .hero-box {
       grid-column: 1/3;
     }
-  }
-  .marginFix {
-    margin-left: 0;
-  }
-
-  .project-cards {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-row-gap: 22px;
+    .marginFix {
+      margin-left: 0;
+    }
   }
 
   .project-cards {
@@ -113,8 +145,35 @@
     justify-content: center !important;
     padding: 0 !important;
   }
+
+  .contact-box {
+    width: 100%;
+  }
 }
 
 // Small phones from 0 - 480 px
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 321px) {
+  #left-content .btn-alternative {
+    margin-top: 15px;
+  }
+
+  .knowledge__item h2 {
+    font-size: 1.1rem;
+  }
+
+  .card__title p {
+    font-size: 0.7rem;
+  }
+
+  .card__tagBox li {
+    font-size: 0.6rem;
+  }
+
+  .card__title i {
+    font-size: 0.93rem;
+  }
+
+  .burger-menu i {
+    font-size: 30px;
+  }
 }
