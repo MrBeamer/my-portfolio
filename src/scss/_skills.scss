@@ -1,7 +1,7 @@
 .skills-grid {
   display: grid;
   // grid-template-columns: auto repeat(4, 1fr);
-  grid-template-columns: repeat(5, auto);
+  grid-template-columns: repeat(6, auto);
 
   ul {
     list-style: none;
@@ -10,14 +10,14 @@
   li {
     margin: 3px 0;
   }
-
-  h3 {
-    margin-right: 10px;
-  }
 }
 
 .skill-item {
   h3 {
     font-weight: 500;
   }
+}
+
+.marginFix {
+  margin-left: 12px;
 }

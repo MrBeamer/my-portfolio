@@ -69,7 +69,7 @@ document
 // Mouse scrolling
 
 document.querySelector(".mouse ").addEventListener("click", function () {
-  document.querySelector("#skills").scrollIntoView({ behavior: "smooth" });
+  document.querySelector("#knowledge").scrollIntoView({ behavior: "smooth" });
 });
 
 // Revealing elements  / fade in

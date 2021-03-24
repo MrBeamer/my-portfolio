@@ -9,8 +9,8 @@
 }
 
 .project__card {
-  border-top: 4px solid var(--color-primary);
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  // border-top: 4px solid var(--color-primary);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
   width: 100%;
   border-radius: 4px;
 }
@@ -22,7 +22,7 @@
 }
 
 .card__imgBox img {
-  // height: 185px;
+  border-radius: 4px;
   width: 100%;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .card__title i {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   color: #6c757d;
   margin-left: 8px;
 }

@@ -7,6 +7,7 @@
 .knowledge__item {
   border: 2px dotted var(--color-font-primary);
   padding: 1rem;
+  transition: background-color 1s, color 1s;
 
   h2 {
     display: inline-block;
