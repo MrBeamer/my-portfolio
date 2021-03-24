@@ -1,0 +1,27 @@
+.knowledge__grid {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-column-gap: 22px;
+}
+
+.knowledge__item {
+  border: 2px dotted var(--color-font-primary);
+  padding: 1rem;
+
+  h2 {
+    display: inline-block;
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+
+  i {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    margin-right: 5px;
+  }
+}
+
+.knowledge__item:hover {
+  background-color: var(--color-primary);
+  color: #ffff;
+}
