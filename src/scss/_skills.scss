@@ -1,7 +1,7 @@
 .skills-grid {
   display: grid;
-  grid-template-columns: auto repeat(4, 1fr);
-  grid-column-gap: 20px;
+  // grid-template-columns: auto repeat(4, 1fr);
+  grid-template-columns: repeat(5, auto);
 
   ul {
     list-style: none;
@@ -9,6 +9,10 @@
 
   li {
     margin: 3px 0;
+  }
+
+  h3 {
+    margin-right: 10px;
   }
 }
 

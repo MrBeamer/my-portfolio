@@ -66,8 +66,10 @@ document
     }
   });
 
+// Mouse scrolling
+
 document.querySelector(".mouse ").addEventListener("click", function () {
-  document.querySelector("#projects").scrollIntoView({ behavior: "smooth" });
+  document.querySelector("#skills").scrollIntoView({ behavior: "smooth" });
 });
 
 // Revealing elements  / fade in

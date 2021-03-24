@@ -4,12 +4,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="I'm a Fullstack Developer based in Berlin, I enjoy creating things that live on the internet, whether that be websites, small web applications, or anything in between. My goal is to always build products that look amazing and provide a great user-experince."
+      content="I'm a Fullstack Developer based in Berlin, I enjoy creating things that live on the internet, whether that be websites, small web applications, or anything in between. My goal is to always build products that look amazing and provide a great user-experience."
     />
     <meta property="og:title" content=" Michael Beamer | Frontend Developer" />
     <meta
       property="og:description"
-      content="My tech stack is JavaScript, Ruby on Rails, HTML and CSS. Additionally I'm using VSCode and Git to create web apps and websites."
+      content="I'm a Fullstack Developer based in Berlin, I enjoy creating things that live on the internet, whether that be websites, small web applications, or anything in between. My goal is to always build products that look amazing and provide a great user-experience."
     />
     <meta
       property="og:image"
@@ -35,79 +35,85 @@
     />
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N8K7589JQ6"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-N8K7589JQ6"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-      gtag('config', 'G-N8K7589JQ6');
+      gtag("config", "G-N8K7589JQ6");
     </script>
     <title>Michael Beamer | Frontend Developer</title>
     <script defer src="src/js/main.js"></script>
   </head>
   <body>
-    <div class="page-container">
-      <center>
-        <nav class="navbar">
-          <div class="nav-logo">
-              <img
-                class="navbar-logo"
-                src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1612894220/portfolio/dfkxbgtnyrhulpaxdr7w.png"
-                alt="logo"
-            />
-          </div>
-          <div class="nav-items">
-            <ul>
-              <div class="nav-desktop">
-                <li><a class="nav-item" href="#about">About</a></li>
-                <li>
-                  <a class="nav-item" href="#projects">Projects</a>
-                </li>
-                <li> <a class="nav-item" href="#contact">Contact</a></li>
-              </div>
-              <li>
-                <div class="dropdown">
-                  <a class="burger-menu"> <i class="fa fa-bars"></i></a>
-                  <!-- dropdown list items will show when we click the drop button -->
-                  <div id="list-items">
-                    <a href="#about">About</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#contact">Contact</a>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </center>
-      <!-- navbar ends -->
-
-      <!-- about me start -->
-      <section class="section" id="section--1">
-        <div id="about" class="content">
-          <div id="left-content">
-            <div class="typed-text">
-              <h1 class="typed-headline"><span id="typed-name"></span></h1>
-            </div>
-  
-            <p class="description">
-              I'm a Fullstack Developer based in Berlin, I enjoy creating things that live on the internet, whether that be websites, small web applications, or anything in between. My goal is to always build products that look amazing and provide a great user-experince.
-            </p>
-            <a class="btn" href="src/assets/cv.pdf" download>Download CV</a>
-            <a class="btn-alternative" href="#contact">Contact me</a>
-            <a href="/copy.html"> test</a>
-          </div>
-  
-          <div id="right-content">
-            <img
-              class="avatar"
-              src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1611760203/portfolio/undraw_web_developer_p3e5_imqzcn.svg"
-              alt="michael-coding"
-            />
-          </div>
+    <center>
+      <nav class="navbar">
+        <div class="nav-logo">
+          <img
+            class="navbar-logo"
+            src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1612894220/portfolio/dfkxbgtnyrhulpaxdr7w.png"
+            alt="logo"
+          />
         </div>
-      </section>
+        <div class="nav-items">
+          <ul>
+            <div class="nav-desktop">
+              <li><a class="nav-item" href="#about">About</a></li>
+              <li><a class="nav-item" href="#skills">Skills</a></li>
+              <li>
+                <a class="nav-item" href="#projects">Projects</a>
+              </li>
+              <li><a class="nav-item" href="#contact">Contact</a></li>
+            </div>
+            <li>
+              <div class="dropdown">
+                <a class="burger-menu"> <i class="fa fa-bars"></i></a>
+                <!-- dropdown list items will show when we click the drop button -->
+                <div id="list-items">
+                  <a href="#about">About</a>
+                  <a href="#projects">Projects</a>
+                  <a href="#contact">Contact</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </center>
+    <!-- navbar ends -->
+
+    <!-- about me start -->
+    <section class="section" id="section--1">
+      <div id="about" class="content">
+        <div id="left-content">
+          <div class="typed-text">
+            <h1 class="typed-headline"><span id="typed-name"></span></h1>
+          </div>
+
+          <p class="description">
+            I'm a Fullstack Developer based in Berlin, I enjoy creating things
+            that live on the internet, whether that be websites, small web
+            applications, or anything in between. My goal is to always build
+            products that look amazing and provide a great user-experience.
+          </p>
+          <a class="btn" href="src/assets/cv.pdf" download>Download CV</a>
+          <a class="btn-alternative" href="#contact">Contact me</a>
+        </div>
+
+        <div id="right-content">
+          <img
+            class="avatar"
+            src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1611760203/portfolio/undraw_web_developer_p3e5_imqzcn.svg"
+            alt="michael-coding"
+          />
+        </div>
+      </div>
 
       <!-- Scroll animation start -->
       <div class="mouse_scroll">
@@ -120,189 +126,311 @@
           <span class="m_scroll_arrows three"></span>
         </div>
       </div>
+    </section>
 
-      <!-- Projects starts -->
-      <section class="section" id="section--2">
-        <div class="hero-headline"">
-          <h1> My Projects</h1>
-          <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.
-          </p>
+    <section class="section" id="section--4">
+      <div id="skills" class="skills-grid">
+        <div class="skill-item"><h3 class="hero-headline">Skills</h3></div>
+
+        <div class="skill-item">
+          <h3>Languages</h3>
+          <ul>
+            <li>JavaScript (ES6)</li>
+            <li>Ruby</li>
+            <li>HTML</li>
+            <li>CSS/Sass</li>
+          </ul>
         </div>
+        <div class="skill-item">
+          <h3>Frameworks</h3>
+          <ul>
+            <li>Rails</li>
+            <li>React</li>
+          </ul>
+        </div>
+        <div class="skill-item">
+          <h3>Tools</h3>
+          <ul>
+            <li>Git & Github</li>
+            <li>Heroku</li>
+            <li>Netlify</li>
+            <li>Firebase</li>
+          </ul>
+        </div>
+        <div class="skill-item">
+          <h3>Design</h3>
+          <ul>
+            <li>Figma</li>
+            <li>Adobe Photoshop</li>
+            <li>Prototyping</li>
+            <li>Wireframing</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-        <div id="projects" class="project-cards">
-
-          <div class="project-card">
-          	<div class="image-container">
-							<img
-              class="project-card-img"
-              src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1613838106/u152boyrwd0mvmsheg66.png"
-              alt="portfolio-image"
+    <!-- Projects starts -->
+    <section class="section" id="section--2">
+      <div id="projects" class="project-cards">
+        <div class="hero-box">
+          <h3 class="hero-headline">My Projects</h3>
+        </div>
+        <div class="project__card">
+          <div class="card__imgBox">
+            <img
+              src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1616580586/portfolio/vbgxuzq76dkm5gchqkq2.png"
+              alt="Shoku landingpage preview"
             />
-              <div class="after"> 
-								<div class="project-card-links">
-									<a href="https://mellow-bank.netlify.app/" target="_blank">Live Version</a>
-									<a href="https://github.com/MrBeamer/mellow-bank-webapp" target="_blank">View Code</a>
-								</div>
-              </div>
+          </div>
+          <div class="card__title">
+            <p>Shoku Delivery - Landingpage</p>
+            <div class="card__iconBox">
+              <a
+                href="https://github.com/MrBeamer/shoku-landingpage"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="https://shoku.netlify.app/" target="_blank"
+                ><i class="fas fa-globe"></i
+              ></a>
+            </div>
+
+            <div class="card__tagBox">
+              <ul>
+                <li class="card__tags">Responsive</li>
+                <li class="card__tags">JavaScript</li>
+                <li class="card__tags">HTML</li>
+                <li class="card__tags">SCSS</li>
+                <li class="card__tags">CSS Grid</li>
+              </ul>
             </div>
           </div>
+        </div>
 
-          <div class="project-card">
-          	<div class="image-container">
-							<img
-              class="project-card-img"
-              src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1614732319/portfolio/ogh2n4fduojth1kbxzfn.png"
-              alt="portfolio-image"
-            />
-              <div class="after"> 
-								<div class="project-card-links">
-									<a href="https://hangoutt.netlify.app/" target="_blank">Live Version</a>
-									<a href="https://github.com/MrBeamer/hangout-app" target="_blank">View Code</a>
-								</div>
-              </div>
-            </div>
-          </div>  
-
-        	<div class="project-card">
-          	<div class="image-container">
-          		<img
-              	class="project-card-img"
-                src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1611262660/portfolio/cy2plyqpcugxyixhmp8b.png"
-                alt="portfolio-image"
-              />
-              <div class="after"> 
-              	<div class="project-card-links">
-                	<a class="live-button" href="https://ateliers-celine.herokuapp.com" target="_blank">Live Version</a>
-                  <a href="https://github.com/MrBeamer/ateliers-celine" target="_blank">View Code</a>
-                </div> 
-              </div>
-            </div>
-					</div>
-					
-        	<div class="project-card">
-          	<div class="image-container">
-							<img
-              class="project-card-img"
-              src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1611263084/portfolio/uhwj1vug0scc6q6p0gv5.png"
-              alt="portfolio-image"
-            />
-              <div class="after"> 
-								<div class="project-card-links">
-									<a class="live-button" href="https://siplicious.herokuapp.com/" target="_blank">Live Version</a>
-									<a href="https://github.com/MrBeamer/rails-mister-cocktail" target="_blank">View Code</a>
-								</div>
-              </div>
-            </div>
-					</div>
-					
-					<div class="project-card">
-          	<div class="image-container">
-							<img
-              class="project-card-img"
-              src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1611263349/portfolio/oes5yxkusl8xyk2izohb.png"
-              alt="portfolio-image"
-            />
-              <div class="after"> 
-								<div class="project-card-links">
-									<a class="live-button" href="https://game-on91.herokuapp.com/" target="_blank">Live Version</a>
-									<a href="https://github.com/MrBeamer/game-on" target="_blank">View Code</a>
-								</div>
-              </div>
-            </div>
-					</div>
-					
-					<div class="project-card">
-          	<div class="image-container">
-							<img
-              class="project-card-img"
-              src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1611408706/portfolio/yxaw7tnd29fboutpfwrg.png"
+        <div class="project__card">
+          <div class="card__imgBox">
+            <img
+              src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1616581262/portfolio/v9osmynv4lxnz7yqk4r9.png"
               alt=""
             />
-              <div class="after"> 
-								<div class="project-card-links">
-									<a href="https://10-questions.netlify.app/" target="_blank">Live Version</a>
-									<a href="https://github.com/MrBeamer/quiz-game" target="_blank">View Code</a>
-								</div>
-              </div>
+          </div>
+          <div class="card__title">
+            <p>Mellow Bank - Web Application</p>
+            <div class="card__iconBox">
+              <a
+                href="https://github.com/MrBeamer/mellow-bank-webapp"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="https://mellow-bank.netlify.app/" target="_blank"
+                ><i class="fas fa-globe"></i
+              ></a>
             </div>
-          </div>   
- 
+            <div class="card__tagBox">
+              <ul>
+                <li class="card__tags">Frontend</li>
+                <li class="card__tags">JavaScript</li>
+                <li class="card__tags">HTML</li>
+                <li class="card__tags">SCSS</li>
+                <li class="card__tags">CSS Grid</li>
+              </ul>
+            </div>
+          </div>
         </div>
-			</section>
-   
-      
-<section class="section" id="section--3">
-   <!-- contact page-content starts -->
-   <div id="contact" class="container">
-    <div class="contact-box">
-      <div class="contact-info">
-        <h1>Let's Get In Touch.</h1>
-        <p>
-          Want to discuss a project, an idea, an opportunity? Just fill up
-          this form or write me an email
-        </p>
+
+        <div class="project__card">
+          <div class="card__imgBox">
+            <img
+              src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1616580050/portfolio/ehl2lildwyfymbyy0tta.png"
+              alt=""
+            />
+          </div>
+          <div class="card__title">
+            <p>Hangout - Web Application</p>
+            <div class="card__iconBox">
+              <a href="https://github.com/MrBeamer/hangout-app" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="https://hangoutt.netlify.app/" target="_blank"
+                ><i class="fas fa-globe"></i
+              ></a>
+            </div>
+            <div class="card__tagBox">
+              <ul>
+                <li class="card__tags">Materialize</li>
+                <li class="card__tags">JavaScript</li>
+                <li class="card__tags">HTML</li>
+                <li class="card__tags">SCSS</li>
+                <li class="card__tags">CSS Grid</li>
+                <li class="card__tags">Leafletjs API</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="project__card">
+          <div class="card__imgBox">
+            <img
+              src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1616581256/portfolio/pcetycfnbznj0klsf16f.png"
+              alt=""
+            />
+          </div>
+          <div class="card__title">
+            <p>Ateliers Celine - E-Commerce</p>
+            <div class="card__iconBox">
+              <a
+                href="https://github.com/MrBeamer/ateliers-celine"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="https://ateliers-celine.herokuapp.com/" target="_blank"
+                ><i class="fas fa-globe"></i
+              ></a>
+            </div>
+            <div class="card__tagBox">
+              <ul>
+                <li class="card__tags">Frontend</li>
+                <li class="card__tags">JavaScript</li>
+                <li class="card__tags">HTML</li>
+                <li class="card__tags">SCSS</li>
+                <li class="card__tags">CSS Grid</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="project__card">
+          <div class="card__imgBox">
+            <img
+              src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1616581269/portfolio/ijoiucwh6cszose9izeu.png"
+              alt=""
+            />
+          </div>
+          <div class="card__title">
+            <p>Sip - Web Application</p>
+            <div class="card__iconBox">
+              <a
+                href="https://github.com/MrBeamer/rails-mister-cocktail"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="https://siplicious.herokuapp.com/" target="_blank"
+                ><i class="fas fa-globe"></i
+              ></a>
+            </div>
+            <div class="card__tagBox">
+              <ul>
+                <li class="card__tags">Frontend</li>
+                <li class="card__tags">JavaScript</li>
+                <li class="card__tags">HTML</li>
+                <li class="card__tags">SCSS</li>
+                <li class="card__tags">CSS Grid</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="project__card">
+          <div class="card__imgBox">
+            <img
+              src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1616584521/portfolio/ztml72jfnnew24a8shzr.png"
+              alt=""
+            />
+          </div>
+          <div class="card__title">
+            <p>10 Questions - Game</p>
+            <div class="card__iconBox">
+              <a href="https://github.com/MrBeamer/quiz-game" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="https://10-questions.netlify.app/" target="_blank"
+                ><i class="fas fa-globe"></i
+              ></a>
+            </div>
+            <div class="card__tagBox">
+              <ul>
+                <li class="card__tags">Lodash</li>
+                <li class="card__tags">openTrivia API</li>
+                <li class="card__tags">HTML</li>
+                <li class="card__tags">SCSS</li>
+                <li class="card__tags">JavaScript</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
-      <form
-        name="contact"
-        id="contact-form"
-        method="post"
-        data-netlify="true"
-      >
-        <div class="form-group">
-          <label for="name">Name</label>
-          <input name="name" type="text" class="form-control" required />
-        </div>
+    </section>
 
-        <div class="form-group">
-          <label for="email">Email Address</label>
-          <input name="email" type="email" class="form-control" required />
-        </div>
+    <section class="section" id="section--3">
+      <!-- contact page-content starts -->
+      <div id="contact" class="container">
+        <div class="contact-box">
+          <div class="contact-info">
+            <h1>Let's Get In Touch.</h1>
+            <p>
+              Want to discuss a project, an idea, an opportunity? Just fill up
+              the form or write me an message.
+            </p>
+          </div>
+          <form
+            name="contact"
+            id="contact-form"
+            method="post"
+            data-netlify="true"
+          >
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input name="name" type="text" class="form-control" required />
+            </div>
 
-        <div class="form-group">
-          <label for="message">Your Message</label>
-          <textarea
-            name="message"
-            class="form-control"
-            rows="4"
-            required
-          ></textarea>
-        </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input name="email" type="email" class="form-control" required />
+            </div>
 
-        <input
-          type="submit"
-          class="form control submit btn-submit"
-          value="Send Message"
-        />
-      </form>
-    </div>
-    <div class="contact-img-container">
-      <img
-        class="contact-img"
-        src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1612647390/portfolio/undraw_emails_6uqr_ylpwzi.svg"
-        alt=""
-      />
-    </div>
-  </div>
-</section>
-   
-      <!-- footer starts -->
-      <div class="footer">
-        <div class="social-links">
-          <a href="mailto:beamermichael@googlemail.com" target="_blank">
-            <i class="far fa-envelope"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/michael-beamer/"
-            ><i class="fab fa-linkedin" target="_blank"></i
-          ></a>
-          <a href="https://github.com/MrBeamer" target="_blank"
-            ><i class="fab fa-github"></i
-          ></a>
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea
+                name="message"
+                class="form-control"
+                rows="4"
+                required
+              ></textarea>
+            </div>
+
+            <input
+              type="submit"
+              class="form control submit btn-submit"
+              value="Send Message"
+            />
+          </form>
         </div>
-        <div class="footer-copyright">
-          © 2021 Michael Beamer. All rights reserved.
+        <div class="contact-img-container">
+          <img
+            class="contact-img"
+            src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1612647390/portfolio/undraw_emails_6uqr_ylpwzi.svg"
+            alt=""
+          />
         </div>
       </div>
-      
+    </section>
+
+    <!-- footer starts -->
+    <div class="footer">
+      <div class="social-links">
+        <a href="mailto:beamermichael@googlemail.com" target="_blank">
+          <i class="far fa-envelope"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/michael-beamer/"
+          ><i class="fab fa-linkedin" target="_blank"></i
+        ></a>
+        <a href="https://github.com/MrBeamer" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+      </div>
+      <div class="footer-copyright">
+        © 2021 Michael Beamer. All rights reserved.
+      </div>
     </div>
   </body>
 </html>
