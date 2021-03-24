@@ -53,36 +53,37 @@
   </head>
   <body>
     <center>
-      <nav class="navbar">
-        <div class="nav-logo">
-          <a href="/">
-            <img
-              class="navbar-logo"
-              src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1612894220/portfolio/dfkxbgtnyrhulpaxdr7w.png"
-              alt="logo"
-          /></a>
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <!-- <img
+            class="navbar-logo"
+            src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1612894220/portfolio/dfkxbgtnyrhulpaxdr7w.png"
+            alt="logo"
+          /> -->
+
+          <a
+            role="button"
+            class="navbar-burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
         </div>
-        <div class="nav-items">
-          <ul>
-            <div class="nav-desktop">
-              <li><a class="nav-item" href="#about">About</a></li>
-              <li>
-                <a class="nav-item" href="#projects">Projects</a>
-              </li>
-              <li><a class="nav-item" href="#contact">Contact</a></li>
-            </div>
-            <li>
-              <div class="dropdown">
-                <a class="burger-menu"> <i class="fa fa-bars"></i></a>
-                <!-- dropdown list items will show when we click the drop button -->
-                <div id="list-items">
-                  <a href="#about">About</a>
-                  <a href="#projects">Projects</a>
-                  <a href="#contact">Contact</a>
-                </div>
-              </div>
-            </li>
-          </ul>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start"></div>
+
+          <div class="navbar-end">
+            <a href="#about" class="navbar-item"> About </a>
+            <a href="#knowledge" class="navbar-item"> Knowledge </a>
+            <a href="#skills" class="navbar-item"> Skills </a>
+            <a href="#projects" class="navbar-item"> Projects </a>
+            <a href="#contact" class="navbar-item"> Contacts </a>
+          </div>
         </div>
       </nav>
     </center>

@@ -1,5 +1,6 @@
-.container {
-  display: flex;
+.contact__grid {
+  display: grid;
+  grid-template-columns: 0.5fr auto;
 }
 
 .contact-box {
@@ -31,10 +32,6 @@
 
 input {
   -webkit-appearance: none;
-}
-
-.contact-img {
-  width: 72%;
 }
 
 .contact-info p {
