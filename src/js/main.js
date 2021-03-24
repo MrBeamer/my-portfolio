@@ -66,6 +66,12 @@ document
     }
   });
 
+// Mouse scrolling
+
+document.querySelector(".mouse ").addEventListener("click", function () {
+  document.querySelector("#knowledge").scrollIntoView({ behavior: "smooth" });
+});
+
 // Revealing elements  / fade in
 
 const sections = document.querySelectorAll(".section");

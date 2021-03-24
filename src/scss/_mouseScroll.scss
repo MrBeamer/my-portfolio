@@ -11,7 +11,7 @@
   margin: 0 auto;
   width: 24px;
   height: 100px;
-  margin-top: 90px;
+  margin-top: 36px;
 }
 
 .m_scroll_arrows {
@@ -30,19 +30,19 @@
   height: 16px;
 }
 
-.unu {
+.one {
   margin-top: 1px;
 }
 
-.unu,
-.doi,
-.trei {
+.one,
+.two,
+.three {
   -webkit-animation: mouse-scroll 1s infinite;
   -moz-animation: mouse-scroll 1s infinite;
   animation: mouse-scroll 1s infinite;
 }
 
-.unu {
+.one {
   -webkit-animation-delay: 0.1s;
   -moz-animation-delay: 0.1s;
   -webkit-animation-direction: alternate;
@@ -51,7 +51,7 @@
   animation-delay: alternate;
 }
 
-.doi {
+.two {
   -webkit-animation-delay: 0.2s;
   -moz-animation-delay: 0.2s;
   -webkit-animation-direction: alternate;
@@ -62,7 +62,7 @@
   margin-top: -6px;
 }
 
-.trei {
+.three {
   -webkit-animation-delay: 0.3s;
   -moz-animation-delay: 0.3s;
   -webkit-animation-direction: alternate;

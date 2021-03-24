@@ -4,3 +4,5 @@ backup
 .parcel-cache
 dist
 .cache
+copy.html
+copy

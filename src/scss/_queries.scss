@@ -1,0 +1,120 @@
+// Big tablet to 1200 px (width smaller then row 1140px)
+@media only screen and (max-width: 1200px) {
+  .dropdown {
+    display: none;
+  }
+}
+
+// Small tablet, to big tablet from 768 - 1023 px
+@media only screen and (max-width: 1023px) {
+}
+
+// Small phones, to small tablets from 481 - 767 px
+@media only screen and (max-width: 767px) {
+  .dropdown {
+    display: inline-block;
+  }
+  .mouse_scroll {
+    display: none;
+  }
+  .nav-desktop {
+    display: none;
+  }
+  #right-content {
+    display: none;
+  }
+
+  .section {
+    padding: 50px 35px;
+  }
+
+  .typed-text {
+    height: auto;
+  }
+
+  .typed-headline {
+    margin-top: 12vh;
+    font-size: 3em;
+  }
+
+  #left-content {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .knowledge__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 22px;
+  }
+
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 22px;
+    .hero-box {
+      grid-column: 1/3;
+    }
+  }
+  .marginFix {
+    margin-left: 0;
+  }
+
+  .project-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 22px;
+  }
+
+  .project-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 22px;
+  }
+
+  .contact__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 22px;
+  }
+
+  .footer-copyright {
+    display: none;
+  }
+
+  .btn-submit {
+    width: 48%;
+  }
+
+  .card__title p {
+    font-size: 0.85rem;
+    color: #6c757d;
+    font-weight: 300;
+    padding: 0 0.4rem;
+    display: inline-block;
+    text-transform: uppercase;
+  }
+
+  .card__tagBox li {
+    font-size: 0.7rem;
+  }
+
+  .card__tags {
+    margin: 0 0.1rem;
+    padding: 0 0.4rem;
+  }
+
+  .card__title i {
+    font-size: 1rem;
+    margin-left: 6px;
+  }
+
+  .footer {
+    justify-content: center !important;
+    padding: 0 !important;
+  }
+}
+
+// Small phones from 0 - 480 px
+@media only screen and (max-width: 480px) {
+}
