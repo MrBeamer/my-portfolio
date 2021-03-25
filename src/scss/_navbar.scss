@@ -1,72 +1,77 @@
-// .navbar {
-//   width: 80vw;
-//   height: 10vh;
-//   margin: auto;
-//   margin-top: 20px;
-//   display: flex;
-//   align-items: center;
-//   justify-content: space-between;
-// }
+.navbar {
+  width: 80vw;
+  height: 10vh;
+  margin: auto;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-// center {
-//   box-shadow: 0 0 1px rgb(0 65 94 / 20%);
-// }
+center {
+  // box-shadow: 0 0 1px rgb(0 65 94 / 20%);
+  border-bottom: 1px solid rgba(108, 117, 125, 0.06);
+}
 
-// .navbar-logo {
-//   height: 100% !important;
-// }
+.navbar-logo {
+  height: 100% !important;
+}
 
-// .navbar ul {
-//   list-style: none;
-//   padding: 30px 0;
-// }
+.navbar ul {
+  list-style: none;
+  padding: 30px 0;
+}
 
-// .navbar li {
-//   font-size: 1rem;
-//   letter-spacing: 0.1;
-//   padding: 0px 15px;
-//   display: inline-block;
-// }
+.navbar li {
+  font-size: 1rem;
+  letter-spacing: 0.1;
+  padding: 0px 15px;
+  display: inline-block;
+}
 
-// .navbar a {
-//   text-decoration: none;
-//   color: #444;
-// }
+.navbar a {
+  text-decoration: none;
+  color: #444;
+}
 
-// .navbar a:hover {
-//   text-decoration: none;
-//   color: var(--color-secondary);
-// }
+.navbar a:hover {
+  text-decoration: none;
+  border-bottom: 2px solid var(--color-primary);
+}
 
-// .animation-jump:hover {
-//   transform: translateY(-0.4rem);
-//   transition: transform 150ms;
-// }
+.animation-jump:hover {
+  transform: translateY(-0.4rem);
+  transition: transform 150ms;
+}
 
-// .dropdown {
-//   position: relative;
-//   display: block;
-// }
+.dropdown {
+  position: relative;
+  display: block;
+}
 
-// #list-items {
-//   display: none;
-//   position: absolute;
-//   border-radius: 5px;
-//   background-color: white;
-//   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-//   top: 47px;
-//   right: -2px;
-//   min-width: 125px;
-// }
+#list-items {
+  display: none;
+  position: absolute;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  top: 47px;
+  right: -2px;
+  min-width: 125px;
+}
 
-// #list-items a {
-//   display: block;
-//   font-size: 18px;
-//   color: black;
-//   text-decoration: none;
-//   padding: 10px;
-// }
+#list-items a {
+  display: block;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
 
-// .burger-menu i {
-//   font-size: 40px;
-// }
+.burger-menu i {
+  font-size: 40px;
+}
+
+.dropdown {
+  display: none;
+}

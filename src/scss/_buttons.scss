@@ -1,0 +1,48 @@
+.btn {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: var(--color-primary);
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.btn:hover {
+  background-color: var(--color-primary-darker);
+  transition: background 0.2s ease-in;
+}
+
+.btn-submit {
+  width: 40%;
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: var(--color-primary);
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.btn-submit:hover {
+  background-color: var(--color-primary-darker);
+  transition: background 0.2s ease-in;
+}
+
+.btn-alternative {
+  display: inline-block;
+  border-radius: 4px;
+  border: 1px solid var(--color-primary);
+  padding: 9px;
+  background-color: transparent;
+  color: var(--color-primary);
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.btn-alternative:hover {
+  color: white;
+  background-color: var(--color-primary-darker);
+  border: 1px solid var(--color-primary-darker);
+  transition: background 0.2s ease-in;
+}
