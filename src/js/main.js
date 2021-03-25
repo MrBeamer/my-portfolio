@@ -107,3 +107,10 @@ nav.addEventListener("click", function (event) {
   navElements.forEach((navItem) => navItem.classList.remove("active"));
   navElement.classList.add("active");
 });
+
+//navbar mobile
+
+// $(".nav__trigger").on("click", function (e) {
+//   e.preventDefault();
+//   $(this).parent().toggleClass("nav--active");
+// });
