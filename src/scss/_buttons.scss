@@ -1,6 +1,5 @@
 .btn {
   display: inline-block;
-  border-radius: 4px;
   padding: 10px;
   background-color: var(--color-primary);
   color: white;
@@ -16,7 +15,6 @@
 .btn-submit {
   width: 40%;
   display: inline-block;
-  border-radius: 4px;
   padding: 10px;
   background-color: var(--color-primary);
   color: white;
@@ -31,7 +29,6 @@
 
 .btn-alternative {
   display: inline-block;
-  border-radius: 4px;
   border: 1px solid var(--color-primary);
   padding: 9px;
   background-color: transparent;

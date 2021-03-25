@@ -82,3 +82,12 @@ center {
   background-position: 100% 100%; /*OR bottom right*/
   background-size: 100% 2px;
 }
+
+.navbar .active {
+  display: inline-block;
+  padding-bottom: 2px;
+  background-image: linear-gradient(var(--color-primary), var(--color-primary));
+  background-repeat: no-repeat;
+  background-position: 100% 100%; /*OR bottom right*/
+  background-size: 100% 2px;
+}
