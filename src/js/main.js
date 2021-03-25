@@ -95,3 +95,22 @@ sections.forEach((section) => {
   sectionsObserver.observe(section);
   section.classList.add("section--hidden");
 });
+
+/// active navbar element toggle
+
+const nav = document.querySelector(".nav-desktop");
+const navElements = document.querySelectorAll(".nav-item");
+
+nav.addEventListener("click", function (event) {
+  const navElement = event.target.closest(".nav-item");
+  if (!navElement) return;
+  navElements.forEach((navItem) => navItem.classList.remove("active"));
+  navElement.classList.add("active");
+});
+
+//navbar mobile
+
+// $(".nav__trigger").on("click", function (e) {
+//   e.preventDefault();
+//   $(this).parent().toggleClass("nav--active");
+// });
