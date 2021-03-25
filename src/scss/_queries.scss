@@ -3,12 +3,67 @@
   .dropdown {
     display: none;
   }
+
+  .section {
+    padding: 50px 60px;
+  }
+
+  .navbar {
+    width: 100%;
+    padding: 0 50px;
+    height: 8vh;
+  }
+
+  .mouse_scroll {
+    display: none;
+  }
+
+  .typed-headline {
+    margin-top: 13vh;
+    font-size: 3.5em;
+  }
+
+  .skills-grid {
+    grid-column-gap: 22px;
+  }
+
+  .card__title p {
+    font-size: 0.85rem;
+    font-weight: 300;
+    padding: 0 0.4rem;
+    display: inline-block;
+    text-transform: uppercase;
+  }
+
+  .card__tagBox li {
+    font-size: 0.7rem;
+    margin-top: 4px;
+  }
+
+  .card__tags {
+    margin: 0 0.1rem;
+    padding: 0 0.4rem;
+  }
+
+  .card__title i {
+    font-size: 1rem;
+    margin-left: 6px;
+  }
 }
 
 // Small tablet, to big tablet from 768 - 1023 px
 @media only screen and (max-width: 1023px) {
   .section {
-    padding: 50px 35px;
+    padding: 50px 60px;
+  }
+
+  .navbar {
+    width: 100%;
+    padding: 0 25px;
+  }
+
+  .mouse_scroll {
+    display: none;
   }
 
   .knowledge__grid {
@@ -19,7 +74,7 @@
 
   .skills-grid {
     display: grid;
-    grid-column-gap: 20px;
+    grid-column-gap: 0;
     grid-template-columns: auto auto;
     grid-row-gap: 22px;
     .hero-box {
@@ -43,6 +98,25 @@
   #left-content {
     width: 100%;
     margin-right: 0;
+  }
+  .contact__grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 22px;
+    grid-column-gap: 22px;
+  }
+
+  .contact-box {
+    grid-row: 2/3;
+    width: 100%;
+  }
+
+  .hero-box {
+    grid-row: 1;
+  }
+
+  .btn-submit {
+    width: 21%;
   }
 }
 
@@ -120,7 +194,6 @@
 
   .card__title p {
     font-size: 0.85rem;
-    color: #6c757d;
     font-weight: 300;
     padding: 0 0.4rem;
     display: inline-block;
