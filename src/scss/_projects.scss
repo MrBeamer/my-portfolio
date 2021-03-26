@@ -66,4 +66,10 @@
 .card__iconBox {
   float: right;
   margin-right: 8px;
+  i {
+    transition: all 0.5s;
+  }
+  i:hover {
+    color: var(--color-primary);
+  }
 }
