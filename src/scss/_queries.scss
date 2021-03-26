@@ -1,9 +1,5 @@
 // Big tablet to 1200 px (width smaller then row 1140px)
 @media only screen and (max-width: 1200px) {
-  .dropdown {
-    display: none;
-  }
-
   .section {
     padding: 50px 60px;
   }
@@ -122,9 +118,10 @@
 
 // Small phones, to small tablets from 481 - 767 px
 @media only screen and (max-width: 767px) {
-  .dropdown {
-    display: inline-block;
+  .mobile .nav__trigger {
+    display: block;
   }
+
   .mouse_scroll {
     display: none;
   }

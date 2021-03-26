@@ -1,8 +1,6 @@
-import * as iziToast from "izitoast";
 import Typed from "typed.js";
 
 // Type.Js integration
-
 const typedNameEl = document.getElementById("typed-name");
 if (typedNameEl) {
   new Typed("#typed-name", {
@@ -13,44 +11,32 @@ if (typedNameEl) {
 
 // Drop down menu
 
-const btnBurger = document.querySelector(".burger-menu");
+// const btnBurger = document.querySelector(".burger-menu");
 
-function showHide() {
-  let click = document.getElementById("list-items");
-  if (click.style.display === "none") {
-    click.style.display = "block";
-  } else {
-    click.style.display = "none";
-  }
-}
+// function showHide() {
+//   let click = document.getElementById("list-items");
+//   if (click.style.display === "none") {
+//     click.style.display = "block";
+//   } else {
+//     click.style.display = "none";
+//   }
+// }
 
-btnBurger.addEventListener("click", showHide);
+// btnBurger.addEventListener("click", showHide);
 
 // Alert for long loading times
 
-let btnsLive = document.querySelectorAll(".live-button");
+// let btnsLive = document.querySelectorAll(".live-button");
 
-function note() {
-  // testing izitoast
-  // iziToast.info({
-  //   title: "Info:",
-  //   message:
-  //     "Long loading times can occure, because heroku is sleeping and needs time to wake up!",
-  //   position: "topCenter",
-  //   color: "green",
+// function note() {
+//   alert(
+//     "Info: Long loading times can occure, because heroku is sleeping and needs time to wake up!"
+//   );
+// }
 
-  //   onClosed: function (instance, toast, closedBy) {
-  //     console.info("Closed | closedBy: " + closedBy);
-  //   },
-  // });
-  alert(
-    "Info: Long loading times can occure, because heroku is sleeping and needs time to wake up!"
-  );
-}
-
-btnsLive.forEach((button) => {
-  button.addEventListener("click", note);
-});
+// btnsLive.forEach((button) => {
+//   button.addEventListener("click", note);
+// });
 
 // Smooth scrolling
 
@@ -110,7 +96,7 @@ nav.addEventListener("click", function (event) {
 
 //navbar mobile
 
-// $(".nav__trigger").on("click", function (e) {
-//   e.preventDefault();
-//   $(this).parent().toggleClass("nav--active");
-// });
+$(".nav__trigger").on("click", function (e) {
+  e.preventDefault();
+  $(this).parent().toggleClass("nav--active");
+});
