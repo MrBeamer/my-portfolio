@@ -1,5 +1,13 @@
 // Big tablet to 1200 px (width smaller then row 1140px)
 @media only screen and (max-width: 1200px) {
+  .mobile .burger-menu {
+    font-size: 25px !important;
+  }
+
+  .nav__list .nav__link {
+    font-size: 1.3rem;
+  }
+
   .section {
     padding: 50px 60px;
   }
@@ -118,6 +126,16 @@
 
 // Small phones, to small tablets from 481 - 767 px
 @media only screen and (max-width: 767px) {
+  .typed-text .typed-headline {
+    width: 200px;
+    height: 80px;
+    display: flex;
+    margin-top: 5vh;
+    margin-bottom: 9vh;
+    // align-items: flex-end;
+    align-items: flex-start;
+  }
+
   .mobile .burger-menu {
     display: block !important;
   }
@@ -223,6 +241,24 @@
 
 // Small phones from 0 - 480 px
 @media only screen and (max-width: 321px) {
+  .typed-text .typed-headline {
+    font-size: 2.6em;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+  }
+
+  .nav__list .nav__link {
+    font-size: 1.1rem;
+  }
+
+  .mobile .nav {
+    height: 30%;
+  }
+
+  .mobile .nav--active .nav {
+    height: 30%;
+  }
+
   #left-content .btn-alternative {
     margin-top: 15px;
   }

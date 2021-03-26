@@ -9,35 +9,6 @@ if (typedNameEl) {
   });
 }
 
-// Drop down menu
-
-// const btnBurger = document.querySelector(".burger-menu");
-
-// function showHide() {
-//   let click = document.getElementById("list-items");
-//   if (click.style.display === "none") {
-//     click.style.display = "block";
-//   } else {
-//     click.style.display = "none";
-//   }
-// }
-
-// btnBurger.addEventListener("click", showHide);
-
-// Alert for long loading times
-
-// let btnsLive = document.querySelectorAll(".live-button");
-
-// function note() {
-//   alert(
-//     "Info: Long loading times can occure, because heroku is sleeping and needs time to wake up!"
-//   );
-// }
-
-// btnsLive.forEach((button) => {
-//   button.addEventListener("click", note);
-// });
-
 // Smooth scrolling
 
 document
@@ -82,7 +53,7 @@ sections.forEach((section) => {
   section.classList.add("section--hidden");
 });
 
-/// active navbar element toggle
+/// Active navbar element toggle
 
 const nav = document.querySelector(".nav-desktop");
 const navElements = document.querySelectorAll(".nav-item");
@@ -94,7 +65,7 @@ nav.addEventListener("click", function (event) {
   navElement.classList.add("active");
 });
 
-//navbar mobile
+// Navbar mobile dropdown toggle
 
 $(".burger-menu").on("click", function (e) {
   e.preventDefault();
