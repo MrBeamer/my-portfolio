@@ -44,6 +44,7 @@
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-N8K7589JQ6"
     ></script> -->
+
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
@@ -54,6 +55,8 @@
       gtag("config", "G-N8K7589JQ6");
     </script>
     <title>Michael Beamer | Frontend Developer</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
     <script defer src="src/js/main.js"></script>
   </head>
   <body>
@@ -79,49 +82,35 @@
               <li><a class="nav-item" href="#contact">Contact</a></li>
             </div>
             <li>
-              <div class="dropdown">
-                <a class="burger-menu"> <i class="fa fa-bars"></i></a>
-                <!-- dropdown list items will show when we click the drop button -->
-                <div id="list-items">
-                  <a href="#about">About</a>
-                  <a href="#knowledge">Knowledge</a>
-                  <a href="#skills">Skills</a>
-                  <a href="#projects">Projects</a>
-                  <a href="#contact">Contact</a>
-                </div>
+              <!-- dropdown -->
+              <div class="mobile">
+                <i class="fas fa-bars burger-menu"></i>
+                <nav class="nav">
+                  <ul class="nav__list">
+                    <li class="nav__item">
+                      <a class="nav__link" href="#about">About</a>
+                    </li>
+                    <li class="nav__item">
+                      <a class="nav__link" href="#knowledge">Knowledge</a>
+                    </li>
+                    <li class="nav__item">
+                      <a class="nav__link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav__item">
+                      <a class="nav__link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                      <a class="nav__link" href="#contact">Contact</a>
+                    </li>
+                  </ul>
+                </nav>
               </div>
+              <!-- test -->
             </li>
           </ul>
         </div>
       </nav>
     </center>
-    <!-- navbar ends -->
-
-    <!-- test -->
-
-    <!-- Style #4-->
-    <!-- <div class="iphone style-4">
-        <a href="#" class="nav__trigger"><span class="nav__icon"></span></a>
-        <nav class="nav">
-          <ul class="nav__list">
-            <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
-            <li class="nav__item">
-              <a class="nav__link" href="#">About Us</a>
-            </li>
-            <li class="nav__item">
-              <a class="nav__link" href="#">Portfolio</a>
-            </li>
-            <li class="nav__item"><a class="nav__link" href="#">Blog</a></li>
-            <li class="nav__item">
-              <a class="nav__link" href="#">Contact Us</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </div> -->
-    <!-- /Style #4 -->
-
-    <!-- test -->
 
     <!-- about me start -->
     <section class="section" id="section--1">
@@ -237,7 +226,6 @@
         <div class="skill-item">
           <h3>Platforms</h3>
           <ul>
-            <li>Firebase</li>
             <li>Netlify</li>
             <li>Github</li>
             <li>Heroku</li>
