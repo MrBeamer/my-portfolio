@@ -118,8 +118,8 @@
 
 // Small phones, to small tablets from 481 - 767 px
 @media only screen and (max-width: 767px) {
-  .mobile .nav__trigger {
-    display: block;
+  .mobile .burger-menu {
+    display: block !important;
   }
 
   .mouse_scroll {

@@ -96,7 +96,7 @@ nav.addEventListener("click", function (event) {
 
 //navbar mobile
 
-$(".nav__trigger").on("click", function (e) {
+$(".burger-menu").on("click", function (e) {
   e.preventDefault();
   $(this).parent().toggleClass("nav--active");
 });
