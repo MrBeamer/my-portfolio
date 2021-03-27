@@ -71,8 +71,3 @@ $(".burger-menu").on("click", function (e) {
   e.preventDefault();
   $(this).parent().toggleClass("nav--active");
 });
-
-// Scrollspy
-// const navMobile = document.querySelector(".btn");
-
-// console.log(UIkit.scrollspyNav(navMobile, { outview }));
