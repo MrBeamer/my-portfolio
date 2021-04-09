@@ -10,7 +10,6 @@
 
 .project__card {
   // border-top: 4px solid var(--color-primary);
-  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
   width: 100%;
 }
@@ -66,8 +65,6 @@
   float: right;
   margin-right: 8px;
   i {
-    -webkit-transition: all 0.5s;
-    -o-transition: all 0.5s;
     transition: all 0.5s;
   }
   i:hover {
