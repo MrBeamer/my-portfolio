@@ -129,14 +129,10 @@
   .typed-text .typed-headline {
     width: 200px;
     height: 80px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     margin-top: 5vh;
     margin-bottom: 10vh;
     // align-items: flex-end;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
     align-items: flex-start;
   }
 
@@ -234,8 +230,6 @@
   }
 
   .footer {
-    -webkit-box-pack: center !important;
-    -ms-flex-pack: center !important;
     justify-content: center !important;
     padding: 0 !important;
   }

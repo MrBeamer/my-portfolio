@@ -3,14 +3,8 @@
   height: 10vh;
   margin: auto;
   margin-top: 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -45,23 +39,10 @@ center {
 .navbar a {
   display: inline-block;
   padding-bottom: 2px;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(var(--color-primary)),
-    to(var(--color-primary))
-  );
-  background-image: -o-linear-gradient(
-    var(--color-primary),
-    var(--color-primary)
-  );
   background-image: linear-gradient(var(--color-primary), var(--color-primary));
   background-position: 0 100%; /*OR bottom left*/
   background-size: 0% 2px;
   background-repeat: no-repeat;
-  -webkit-transition: background-size 0.3s, background-position 0s 0.3s;
-  -o-transition: background-size 0.3s, background-position 0s 0.3s;
   transition: background-size 0.3s, background-position 0s 0.3s; /*change after the size immediately*/
 }
 
@@ -73,17 +54,6 @@ center {
 .navbar .active {
   display: inline-block;
   padding-bottom: 2px;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(var(--color-primary)),
-    to(var(--color-primary))
-  );
-  background-image: -o-linear-gradient(
-    var(--color-primary),
-    var(--color-primary)
-  );
   background-image: linear-gradient(var(--color-primary), var(--color-primary));
   background-repeat: no-repeat;
   background-position: 100% 100%; /*OR bottom right*/
@@ -96,11 +66,7 @@ center {
   position: absolute;
   z-index: 100;
   opacity: 0;
-  -webkit-transition-property: all;
-  -o-transition-property: all;
   transition-property: all;
-  -webkit-transition-duration: 300ms;
-  -o-transition-duration: 300ms;
   transition-duration: 300ms;
   right: 0%;
   top: 10%;
@@ -130,8 +96,6 @@ center {
   text-decoration: none;
   color: var(--color-primary);
   opacity: 1;
-  -webkit-transition: opacity 300ms ease-in-out;
-  -o-transition: opacity 300ms ease-in-out;
   transition: opacity 300ms ease-in-out;
 }
 
@@ -140,13 +104,7 @@ center {
 .mobile .burger-menu {
   font-size: 35px;
   color: #6c757d;
-  -webkit-transition-property: color, -webkit-transform;
-  transition-property: color, -webkit-transform;
-  -o-transition-property: color, transform;
   transition-property: color, transform;
-  transition-property: color, transform, -webkit-transform;
-  -webkit-transition-duration: 300ms;
-  -o-transition-duration: 300ms;
   transition-duration: 300ms;
   display: none;
 }
@@ -156,8 +114,6 @@ center {
 }
 
 .nav--active .burger-menu {
-  -webkit-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 
@@ -165,21 +121,15 @@ center {
   width: 100%;
   height: 29%;
   // transform: translateY(100%);
-  -webkit-transform: translateY(-141%);
-  -ms-transform: translateY(-141%);
   transform: translateY(-141%);
 }
 
 .nav--active .nav {
-  -webkit-transform: translateY(0);
-  -ms-transform: translateY(0);
   transform: translateY(0);
 }
 
 .nav__link {
   opacity: 0;
-  -webkit-transition-delay: 500ms;
-  -o-transition-delay: 500ms;
   transition-delay: 500ms;
   font-weight: 200;
   letter-spacing: 2px;
