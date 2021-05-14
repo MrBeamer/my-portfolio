@@ -24,10 +24,24 @@
     <meta property="og:url" content="https://www.michaelbeamer.de/" />
     <link rel="stylesheet" href="src/scss/main.scss" />
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="manifest" href="/site.webmanifest" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/public/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/public/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/public/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/public/site.webmanifest" />
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -190,7 +204,7 @@
         <div class="skill-item marginFix">
           <h3>Languages</h3>
           <ul>
-            <li>JavaScript (ES6)</li>
+            <li>JavaScript</li>
             <li>CSS/SCSS</li>
             <li>Ruby</li>
             <li>HTML</li>
@@ -206,8 +220,7 @@
         <div class="skill-item">
           <h3>Tools</h3>
           <ul>
-            <li>Terminal (ohmyz)</li>
-            <li>Chrome DevTools</li>
+            <li>Terminal</li>
             <li>Parcel</li>
             <li>NPM</li>
             <li>Git</li>
@@ -236,46 +249,88 @@
         <div class="hero-box">
           <h3 class="hero-headline">Projects</h3>
         </div>
+
         <div class="project__card">
           <div class="card__imgBox">
             <picture>
               <source
                 srcset="
-                  https://res.cloudinary.com/dxdboxbyb/image/upload/v1616580586/portfolio/vbgxuzq76dkm5gchqkq2.webp
+                  https://res.cloudinary.com/dxdboxbyb/image/upload/q_100/v1620989529/portfolio/qxasbq14sojosebbykdy.webp
                 "
                 type="image/webp"
               />
               <source
                 srcset="
-                  https://res.cloudinary.com/dxdboxbyb/image/upload/q_100/v1616580586/portfolio/vbgxuzq76dkm5gchqkq2.jpg
+                  https://res.cloudinary.com/dxdboxbyb/image/upload/v1620989529/portfolio/qxasbq14sojosebbykdy.jpg
                 "
                 type="image/jpg"
               />
               <img
-                src="https://res.cloudinary.com/dxdboxbyb/image/upload/q_100/v1616580586/portfolio/vbgxuzq76dkm5gchqkq2.jpg"
-                alt="Shoku landingpage preview"
+                src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1620989529/portfolio/qxasbq14sojosebbykdy.jpg"
+                alt="Moviesquare preview"
               />
             </picture>
           </div>
           <div class="card__title">
-            <p>Shoku Delivery - Landingpage</p>
+            <p>Moviesquare - Web Application</p>
             <div class="card__iconBox">
               <a
-                href="https://github.com/MrBeamer/shoku-landingpage"
+                href="https://github.com/MrBeamer/movie-web-app"
                 target="_blank"
                 ><i class="fab fa-github"></i
               ></a>
-              <a href="https://shoku.netlify.app/" target="_blank"
+              <a href="https://moviesquare.netlify.app/" target="_blank"
                 ><i class="fas fa-globe"></i
               ></a>
             </div>
 
             <div class="card__tagBox">
               <ul>
-                <li class="card__tags">Responsive</li>
+                <li class="card__tags">React</li>
+                <li class="card__tags">RESTful API</li>
                 <li class="card__tags">JavaScript</li>
-                <li class="card__tags">SCSS</li>
-                <li class="card__tags">CSS Grid</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="project__card">
+          <div class="card__imgBox">
+            <picture>
+              <source
+                srcset="
+                  https://res.cloudinary.com/dxdboxbyb/image/upload/q_100/v1620990501/portfolio/kf3vws0kuqnc2corqae0.webp
+                "
+                type="image/webp"
+              />
+              <source
+                srcset="
+                  https://res.cloudinary.com/dxdboxbyb/image/upload/v1620990501/portfolio/kf3vws0kuqnc2corqae0.jpg
+                "
+                type="image/jpg"
+              />
+              <img
+                src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1620990501/portfolio/kf3vws0kuqnc2corqae0.jpg"
+                alt="Fruit Panda preview"
+              />
+            </picture>
+          </div>
+          <div class="card__title">
+            <p>Fruit Panda - Shop</p>
+            <div class="card__iconBox">
+              <a href="https://github.com/MrBeamer/moshi-moshi" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="https://fruitpanda.netlify.app/" target="_blank"
+                ><i class="fas fa-globe"></i
+              ></a>
+            </div>
+
+            <div class="card__tagBox">
+              <ul>
+                <li class="card__tags">React</li>
+                <li class="card__tags">Stripe</li>
+                <li class="card__tags">JavaScript</li>
               </ul>
             </div>
           </div>
@@ -316,11 +371,51 @@
             </div>
             <div class="card__tagBox">
               <ul>
-                <li class="card__tags">Responsive</li>
-                <li class="card__tags">Login</li>
                 <li class="card__tags">JavaScript</li>
                 <li class="card__tags">CSS</li>
-                <li class="card__tags">CSS Grid</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="project__card">
+          <div class="card__imgBox">
+            <picture>
+              <source
+                srcset="
+                  https://res.cloudinary.com/dxdboxbyb/image/upload/v1616580586/portfolio/vbgxuzq76dkm5gchqkq2.webp
+                "
+                type="image/webp"
+              />
+              <source
+                srcset="
+                  https://res.cloudinary.com/dxdboxbyb/image/upload/q_100/v1616580586/portfolio/vbgxuzq76dkm5gchqkq2.jpg
+                "
+                type="image/jpg"
+              />
+              <img
+                src="https://res.cloudinary.com/dxdboxbyb/image/upload/q_100/v1616580586/portfolio/vbgxuzq76dkm5gchqkq2.jpg"
+                alt="Shoku landingpage preview"
+              />
+            </picture>
+          </div>
+          <div class="card__title">
+            <p>Shoku Delivery - Landingpage</p>
+            <div class="card__iconBox">
+              <a
+                href="https://github.com/MrBeamer/shoku-landingpage"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="https://shoku.netlify.app/" target="_blank"
+                ><i class="fas fa-globe"></i
+              ></a>
+            </div>
+
+            <div class="card__tagBox">
+              <ul>
+                <li class="card__tags">JavaScript</li>
+                <li class="card__tags">SCSS</li>
               </ul>
             </div>
           </div>
@@ -360,56 +455,9 @@
             <div class="card__tagBox">
               <ul>
                 <li class="card__tags">Materialize</li>
-                <li class="card__tags">JavaScript</li>
-                <li class="card__tags">SCSS</li>
-                <li class="card__tags">CSS Grid</li>
                 <li class="card__tags">Leafletjs API</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="project__card">
-          <div class="card__imgBox">
-            <picture>
-              <source
-                srcset="
-                  https://res.cloudinary.com/dxdboxbyb/image/upload/v1616581256/portfolio/pcetycfnbznj0klsf16f.webp
-                "
-                type="image/webp"
-              />
-              <source
-                srcset="
-                  https://res.cloudinary.com/dxdboxbyb/image/upload/q_100/v1616581256/portfolio/pcetycfnbznj0klsf16f.jpg
-                "
-                type="image/jpg"
-              />
-              <img
-                src="https://res.cloudinary.com/dxdboxbyb/image/upload/q_100/v1616581256/portfolio/pcetycfnbznj0klsf16f.jpg"
-                alt="Atelier Celine E-Commerce"
-              />
-            </picture>
-          </div>
-          <div class="card__title">
-            <p>Ateliers Celine - E-Commerce</p>
-            <div class="card__iconBox">
-              <a
-                href="https://github.com/MrBeamer/ateliers-celine"
-                target="_blank"
-                ><i class="fab fa-github"></i
-              ></a>
-              <a href="https://ateliers-celine.herokuapp.com/" target="_blank"
-                ><i class="fas fa-globe"></i
-              ></a>
-            </div>
-            <div class="card__tagBox">
-              <ul>
-                <li class="card__tags">Backend</li>
-                <li class="card__tags">Ruby & Rails</li>
+                <li class="card__tags">CSS</li>
                 <li class="card__tags">JavaScript</li>
-                <li class="card__tags">SQL</li>
-                <li class="card__tags">SCSS</li>
-                <li class="card__tags">Stripe</li>
               </ul>
             </div>
           </div>
@@ -450,54 +498,10 @@
             </div>
             <div class="card__tagBox">
               <ul>
-                <li class="card__tags">Responsive</li>
                 <li class="card__tags">Backend</li>
-                <li class="card__tags">SQL</li>
+                <li class="card__tags">PostgreSQL</li>
                 <li class="card__tags">SCSS</li>
                 <li class="card__tags">Ruby & Rails</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="project__card">
-          <div class="card__imgBox">
-            <picture>
-              <source
-                srcset="
-                  https://res.cloudinary.com/dxdboxbyb/image/upload/v1616584521/portfolio/ztml72jfnnew24a8shzr.webp
-                "
-                type="image/webp"
-              />
-              <source
-                srcset="
-                  https://res.cloudinary.com/dxdboxbyb/image/upload/q_100/v1616584521/portfolio/ztml72jfnnew24a8shzr.jpg
-                "
-                type="image/jpg"
-              />
-              <img
-                src="https://res.cloudinary.com/dxdboxbyb/image/upload/q_100/v1616584521/portfolio/ztml72jfnnew24a8shzr.jpg"
-                alt="10 Questions Game preview"
-              />
-            </picture>
-          </div>
-          <div class="card__title">
-            <p>10 Questions - Game</p>
-            <div class="card__iconBox">
-              <a href="https://github.com/MrBeamer/quiz-game" target="_blank"
-                ><i class="fab fa-github"></i
-              ></a>
-              <a href="https://10-questions.netlify.app/" target="_blank"
-                ><i class="fas fa-globe"></i
-              ></a>
-            </div>
-            <div class="card__tagBox">
-              <ul>
-                <li class="card__tags">Responsive</li>
-                <li class="card__tags">JavaScript</li>
-                <li class="card__tags">Lodash</li>
-                <li class="card__tags">openTrivia API</li>
-                <li class="card__tags">CSS</li>
               </ul>
             </div>
           </div>
