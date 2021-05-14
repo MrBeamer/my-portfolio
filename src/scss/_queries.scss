@@ -1,4 +1,3 @@
-// Big tablet to 1200 px (width smaller then row 1140px)
 @media only screen and (max-width: 1200px) {
   .mobile .burger-menu {
     font-size: 25px !important;
@@ -55,7 +54,6 @@
   }
 }
 
-// Small tablet, to big tablet from 768 - 1023 px
 @media only screen and (max-width: 1023px) {
   .section {
     padding: 50px 60px;
@@ -124,7 +122,6 @@
   }
 }
 
-// Small phones, to small tablets from 481 - 767 px
 @media only screen and (max-width: 767px) {
   .typed-text .typed-headline {
     width: 200px;
@@ -132,7 +129,6 @@
     display: flex;
     margin-top: 5vh;
     margin-bottom: 10vh;
-    // align-items: flex-end;
     align-items: flex-start;
   }
 
