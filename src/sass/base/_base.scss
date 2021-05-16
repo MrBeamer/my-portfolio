@@ -1,17 +1,12 @@
-/* Resetting  */
-* {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
 }
 
-:root {
-  --color-primary: #35b993;
-  --color-primary-lighter: #67d3b4;
-  --color-primary-darker: #2a9174;
-  --color-font-primary: #6c757d;
-}
+// needs to be organized
 
 .hero-headline {
   color: var(--color-primary);
