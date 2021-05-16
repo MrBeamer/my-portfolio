@@ -23,7 +23,7 @@
 }
 
 .social-links i:hover {
-  color: var(--color-primary);
+  color: $color-primary;
   transform: translateY(-0.4rem);
   transition: transform 150ms;
 }

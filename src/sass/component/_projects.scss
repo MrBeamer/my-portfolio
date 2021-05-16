@@ -38,8 +38,8 @@
 }
 
 .card__tags {
-  border: 1px solid var(--color-primary-lighter);
-  color: var(--color-primary-lighter);
+  border: 1px solid $color-primary-lighter;
+  color: $color-primary-lighter;
   margin: 0 0.3rem;
   padding: 0 0.4rem;
   height: 20px;
@@ -65,6 +65,6 @@
     transition: all 0.5s;
   }
   i:hover {
-    color: var(--color-primary);
+    color: $color-primary;
   }
 }

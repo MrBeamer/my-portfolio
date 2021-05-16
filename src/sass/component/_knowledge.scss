@@ -5,7 +5,7 @@
 }
 
 .knowledge__item {
-  border: 2px dotted var(--color-font-primary);
+  border: 2px dotted $color-font-primary;
   padding: 1rem;
   transition: background-color 0.5s, color 0.5s;
 
@@ -28,6 +28,6 @@
 }
 
 .knowledge__item:hover {
-  background-color: var(--color-primary);
+  background-color: $color-primary;
   color: #ffff;
 }

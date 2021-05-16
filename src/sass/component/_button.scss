@@ -1,14 +1,14 @@
 .btn {
   display: inline-block;
   padding: 10px;
-  background-color: var(--color-primary);
+  background-color: $color-primary;
   color: white;
   text-decoration: none;
   margin-right: 15px;
   transition: all 1s;
 
   &:hover {
-    background-color: var(--color-primary-darker);
+    background-color: $color-primary-darker;
   }
 }
 
@@ -16,7 +16,7 @@
   width: 40%;
   display: inline-block;
   padding: 10px;
-  background-color: var(--color-primary);
+  background-color: $color-primary;
   color: white;
   text-decoration: none;
   margin-right: 15px;
@@ -25,21 +25,21 @@
 }
 
 .btn-submit:hover {
-  background-color: var(--color-primary-darker);
+  background-color: $color-primary-darker;
 }
 
 .btn-alternative {
   display: inline-block;
-  border: 1px solid var(--color-primary);
+  border: 1px solid $color-primary;
   padding: 9px;
   background-color: transparent;
-  color: var(--color-primary);
+  color: $color-primary;
   text-decoration: none;
   margin-right: 15px;
   transition: all 1s;
 }
 
 .btn-alternative:hover {
-  color: var(--color-primary-darker);
-  border: 1px solid var(--color-primary-darker);
+  color: $color-primary-darker;
+  border: 1px solid $color-primary-darker;
 }
