@@ -1,0 +1,45 @@
+.avatar {
+  margin-top: 50px;
+  width: 90%;
+  width: 100%;
+  border-radius: 5px;
+}
+
+#left-content {
+  width: 45%;
+  margin-right: 30px;
+}
+
+#left-content p {
+  width: 88%;
+  margin-bottom: 40px;
+}
+
+.typed-headline {
+  margin-top: 20vh;
+  font-size: 4.5em;
+}
+
+.description {
+  text-align: justify;
+  letter-spacing: 1.2;
+  font-weight: 200;
+}
+
+#right-content {
+  width: 54%;
+}
+
+.content {
+  display: flex;
+}
+
+/* typed js */
+
+.typed-cursor {
+  display: none;
+}
+
+.typed-text {
+  height: 110px;
+}

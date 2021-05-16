@@ -9,28 +9,21 @@
   color: rgba(0, 0, 0, 0.3);
   margin: auto;
   margin-top: 20px;
-}
 
-.social-links {
-  display: flex;
-  align-items: center;
-}
+  &__social-links {
+    display: flex;
+    align-items: center;
+  }
 
-.social-links i {
-  margin-right: 15px;
-  font-size: 24px;
-  color: #444;
-}
+  &__social-links i {
+    margin-right: 15px;
+    font-size: 24px;
+    color: #444;
+  }
 
-.social-links i:hover {
-  color: $color-primary;
-  transform: translateY(-0.4rem);
-  transition: transform 150ms;
-}
-
-.avatar {
-  margin-top: 50px;
-  width: 90%;
-  width: 100%;
-  border-radius: 5px;
+  &__social-links i:hover {
+    color: $color-primary;
+    transform: translateY(-0.4rem);
+    transition: transform 150ms;
+  }
 }

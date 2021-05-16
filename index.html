@@ -159,35 +159,35 @@
       </div>
     </section>
     <section class="section" id="section--4">
-      <div id="knowledge" class="knowledge__grid">
+      <div id="knowledge" class="knowledge">
         <div class="hero-box">
           <h3 class="hero-headline">Knowledge</h3>
         </div>
         <div class="knowledge__item">
           <i class="fas fa-code"></i>
-          <h2>Web Development</h2>
-          <p>A Bootcamp tought me a lot about HTML, SCSS and Ruby on Rails.</p>
-          <p>
+          <h2 class="knowledge__title">Web Development</h2>
+          <p class="knowledge__description">A Bootcamp tought me a lot about HTML, SCSS and Ruby on Rails.</p>
+          <p class="knowledge__description">
             Currently I am focusing on JavaScript & React and growing as a
             developer through new projects.
           </p>
         </div>
         <div class="knowledge__item">
           <i class="fas fa-ad"></i>
-          <h2>Brand Management</h2>
-          <p>
+          <h2 class="knowledge__title">Brand Management</h2>
+          <p class="knowledge__description">
             I studied brand management and made different working experiences.
           </p>
-          <p>
+          <p class="knowledge__description">
             During that I learned about design essentials and the importance of
             a great user- experience/journey.
           </p>
         </div>
         <div class="knowledge__item">
           <i class="fas fa-circle-notch"></i>
-          <h2>Agile Development</h2>
-          <p>While attending Le Wagon I experienced agile development.</p>
-          <p>
+          <h2 class="knowledge__title">Agile Development</h2>
+          <p class="knowledge__description">While attending Le Wagon I experienced agile development.</p>
+          <p class="knowledge__description">
             Part of the experience was pair programming, test-driven
             development, stand-ups and sprints.
           </p>
@@ -195,49 +195,50 @@
       </div>
     </section>
     <section class="section" id="section--4">
-      <div id="skills" class="skills-grid">
+      <div id="skills" class="skills">
         <div class="hero-box">
           <h3 class="hero-headline">Skills</h3>
         </div>
 
-        <div class="skill-item marginFix">
-          <h3>Languages</h3>
-          <ul>
-            <li>JavaScript</li>
-            <li>CSS/SCSS</li>
-            <li>Ruby</li>
-            <li>HTML</li>
+        <div class="skill">
+          <h3 class="skill__title">Languages</h3>
+          <ul class="skill__list">
+            <li class="skill__list-item">JavaScript</li>
+            <li class="skill__list-item">CSS</li>
+            <li class="skill__list-item">SASS/SCSS</li>
+            <li class="skill__list-item">Ruby</li>
+            <li class="skill__list-item">HTML</li>
           </ul>
         </div>
-        <div class="skill-item">
-          <h3>Frameworks</h3>
-          <ul>
-            <li>Rails</li>
-            <li>React</li>
+        <div class="skill">
+          <h3 class="skill__title">Frameworks</h3>
+          <ul class="skill__list">
+            <li class="skill__list-item">Rails</li>
+            <li class="skill__list-item">React</li>
           </ul>
         </div>
-        <div class="skill-item">
-          <h3>Tools</h3>
-          <ul>
-            <li>Terminal</li>
-            <li>Parcel</li>
-            <li>NPM</li>
-            <li>Git</li>
+        <div class="skill">
+          <h3 class="skill__title">Tools</h3>
+          <ul class="skill__list">
+            <li class="skill__list-item">Terminal</li>
+            <li class="skill__list-item">Parcel</li>
+            <li class="skill__list-item">NPM</li>
+            <li class="skill__list-item">Git</li>
           </ul>
         </div>
-        <div class="skill-item">
-          <h3>Design</h3>
-          <ul>
-            <li>Figma</li>
-            <li>Adobe Photoshop</li>
+        <div class="skill">
+          <h3 class="skill__title">Design</h3>
+          <ul class="skill__list">
+            <li class="skill__list-item">Figma</li>
+            <li class="skill__list-item">Adobe Photoshop</li>
           </ul>
         </div>
-        <div class="skill-item">
-          <h3>Platforms</h3>
-          <ul>
-            <li>Netlify</li>
-            <li>Github</li>
-            <li>Heroku</li>
+        <div class="skill">
+          <h3 class="skill__title">Platforms</h3>
+          <ul class="skill__list">
+            <li class="skill__list-item">Netlify</li>
+            <li class="skill__list-item">Github</li>
+            <li class="skill__list-item">Heroku</li>
           </ul>
         </div>
       </div>
@@ -249,10 +250,10 @@
           <h3 class="hero-headline">Projects</h3>
         </div>
 
-        <div class="project__card">
-          <div class="card__imgBox">
+        <div class="card">
+          <div class="card__img-box"">
             <picture>
-              <source
+              <source 
                 srcset="
                   https://res.cloudinary.com/dxdboxbyb/image/upload/q_100/v1620989529/portfolio/qxasbq14sojosebbykdy.webp
                 "
@@ -264,15 +265,15 @@
                 "
                 type="image/jpg"
               />
-              <img
+              <img class="card__img"
                 src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1620989529/portfolio/qxasbq14sojosebbykdy.jpg"
                 alt="Moviesquare preview"
               />
             </picture>
           </div>
-          <div class="card__title">
+          <div class="card__content">
             <p>Moviesquare - Web Application</p>
-            <div class="card__iconBox">
+            <div class="card__icon-box">
               <a
                 href="https://github.com/MrBeamer/movie-web-app"
                 target="_blank"
@@ -282,19 +283,16 @@
                 ><i class="fas fa-globe"></i
               ></a>
             </div>
-
-            <div class="card__tagBox">
-              <ul>
-                <li class="card__tags">React</li>
-                <li class="card__tags">RESTful API</li>
-                <li class="card__tags">JavaScript</li>
+              <ul class="card__tag-box">
+                <li class="card__tag">React</li>
+                <li class="card__tag">RESTful API</li>
+                <li class="card__tag">JavaScript</li>
               </ul>
-            </div>
           </div>
         </div>
 
-        <div class="project__card">
-          <div class="card__imgBox">
+        <div class="card">
+          <div class="card__img-box"">
             <picture>
               <source
                 srcset="
@@ -308,15 +306,15 @@
                 "
                 type="image/jpg"
               />
-              <img
+              <img class="card__img"
                 src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1620990501/portfolio/kf3vws0kuqnc2corqae0.jpg"
                 alt="Fruit Panda preview"
               />
             </picture>
           </div>
-          <div class="card__title">
+          <div class="card__content">
             <p>Fruit Panda - Shop</p>
-            <div class="card__iconBox">
+            <div class="card__icon-box">
               <a href="https://github.com/MrBeamer/moshi-moshi" target="_blank"
                 ><i class="fab fa-github"></i
               ></a>
@@ -324,19 +322,16 @@
                 ><i class="fas fa-globe"></i
               ></a>
             </div>
-
-            <div class="card__tagBox">
-              <ul>
-                <li class="card__tags">React</li>
-                <li class="card__tags">Stripe</li>
-                <li class="card__tags">JavaScript</li>
+              <ul class="card__tag-box">
+                <li class="card__tag">React</li>
+                <li class="card__tag">Stripe</li>
+                <li class="card__tag">JavaScript</li>
               </ul>
-            </div>
           </div>
         </div>
 
-        <div class="project__card">
-          <div class="card__imgBox">
+        <div class="card">
+          <div class="card__img-box"">
             <picture>
               <source
                 srcset="
@@ -350,15 +345,15 @@
                 "
                 type="image/jpg"
               />
-              <img
+              <img class="card__img"
                 src="https://res.cloudinary.com/dxdboxbyb/image/upload/q_100/v1616581262/portfolio/v9osmynv4lxnz7yqk4r9.jpg"
                 alt="Mellow landingpage preview"
               />
             </picture>
           </div>
-          <div class="card__title">
+          <div class="card__content">
             <p>Mellow Bank - Web Application</p>
-            <div class="card__iconBox">
+            <div class="card__icon-box">
               <a
                 href="https://github.com/MrBeamer/mellow-bank-webapp"
                 target="_blank"
@@ -368,17 +363,15 @@
                 ><i class="fas fa-globe"></i
               ></a>
             </div>
-            <div class="card__tagBox">
-              <ul>
-                <li class="card__tags">JavaScript</li>
-                <li class="card__tags">CSS</li>
+              <ul class="card__tag-box">
+                <li class="card__tag">JavaScript</li>
+                <li class="card__tag">CSS</li>
               </ul>
-            </div>
           </div>
         </div>
 
-        <div class="project__card">
-          <div class="card__imgBox">
+        <div class="card">
+          <div class="card__img-box"">
             <picture>
               <source
                 srcset="
@@ -392,15 +385,15 @@
                 "
                 type="image/jpg"
               />
-              <img
+              <img class="card__img"
                 src="https://res.cloudinary.com/dxdboxbyb/image/upload/q_100/v1616580586/portfolio/vbgxuzq76dkm5gchqkq2.jpg"
                 alt="Shoku landingpage preview"
               />
             </picture>
           </div>
-          <div class="card__title">
+          <div class="card__content">
             <p>Shoku Delivery - Landingpage</p>
-            <div class="card__iconBox">
+            <div class="card__icon-box">
               <a
                 href="https://github.com/MrBeamer/shoku-landingpage"
                 target="_blank"
@@ -410,18 +403,15 @@
                 ><i class="fas fa-globe"></i
               ></a>
             </div>
-
-            <div class="card__tagBox">
-              <ul>
-                <li class="card__tags">JavaScript</li>
-                <li class="card__tags">SCSS</li>
+              <ul class="card__tag-box">
+                <li class="card__tag">JavaScript</li>
+                <li class="card__tag">SCSS</li>
               </ul>
-            </div>
           </div>
         </div>
 
-        <div class="project__card">
-          <div class="card__imgBox">
+        <div class="card">
+          <div class="card__img-box"">
             <picture>
               <source
                 srcset="
@@ -435,15 +425,15 @@
                 "
                 type="image/jpg"
               />
-              <img
+              <img class="card__img"
                 src="https://res.cloudinary.com/dxdboxbyb/image/upload/q_100/v1616580050/portfolio/ehl2lildwyfymbyy0tta.jpg"
                 alt="Hangout Web App preview"
               />
             </picture>
           </div>
-          <div class="card__title">
+          <div class="card__content">
             <p>Hangout - Web Application</p>
-            <div class="card__iconBox">
+            <div class="card__icon-box">
               <a href="https://github.com/MrBeamer/hangout-app" target="_blank"
                 ><i class="fab fa-github"></i
               ></a>
@@ -451,19 +441,17 @@
                 ><i class="fas fa-globe"></i
               ></a>
             </div>
-            <div class="card__tagBox">
-              <ul>
-                <li class="card__tags">Materialize</li>
-                <li class="card__tags">Leafletjs API</li>
-                <li class="card__tags">CSS</li>
-                <li class="card__tags">JavaScript</li>
+              <ul class="card__tag-box">
+                <li class="card__tag">Materialize</li>
+                <li class="card__tag">Leafletjs API</li>
+                <li class="card__tag">CSS</li>
+                <li class="card__tag">JavaScript</li>
               </ul>
-            </div>
           </div>
         </div>
 
-        <div class="project__card">
-          <div class="card__imgBox">
+        <div class="card">
+          <div class="card__img-box"">
             <picture>
               <source
                 srcset="
@@ -477,15 +465,15 @@
                 "
                 type="image/jpg"
               />
-              <img
+              <img class="card__img"
                 src="https://res.cloudinary.com/dxdboxbyb/image/upload/q_100/v1616581269/portfolio/ijoiucwh6cszose9izeu.jpg"
                 alt="Sip Web App preview"
               />
             </picture>
           </div>
-          <div class="card__title">
+          <div class="card__content">
             <p>Sip - Web Application</p>
-            <div class="card__iconBox">
+            <div class="card__icon-box">
               <a
                 href="https://github.com/MrBeamer/rails-mister-cocktail"
                 target="_blank"
@@ -495,25 +483,23 @@
                 ><i class="fas fa-globe"></i
               ></a>
             </div>
-            <div class="card__tagBox">
-              <ul>
-                <li class="card__tags">Backend</li>
-                <li class="card__tags">PostgreSQL</li>
-                <li class="card__tags">SCSS</li>
-                <li class="card__tags">Ruby & Rails</li>
+              <ul class="card__tag-box">
+                <li class="card__tag">Backend</li>
+                <li class="card__tag">PostgreSQL</li>
+                <li class="card__tag">SCSS</li>
+                <li class="card__tag">Ruby & Rails</li>
               </ul>
-            </div>
           </div>
         </div>
       </div>
     </section>
     <section class="section" id="section--3">
-      <div class="contact__grid">
+      <div class="contact">
         <div id="contact" class="hero-box">
           <h3 class="hero-headline">Contact</h3>
         </div>
-        <div class="contact-box">
-          <div class="contact-info">
+        <div class="contact__box">
+          <div class="contact__info">
             <h1>Let's Get In Touch.</h1>
             <p>
               Whether you have an idea for a project or just want to chat, feel
@@ -522,25 +508,25 @@
           </div>
           <form
             name="contact"
-            id="contact-form"
+            class="contact__form"
             method="post"
             data-netlify="true"
           >
-            <div class="form-group">
+            <div class="contact__form-group">
               <label for="name">Name</label>
-              <input name="name" type="text" class="form-control" required />
+              <input name="name" type="text" class="contact__form-control" required />
             </div>
 
-            <div class="form-group">
+            <div class="contact__form-group">
               <label for="email">Email Address</label>
-              <input name="email" type="email" class="form-control" required />
+              <input name="email" type="email" class="contact__form-control" required />
             </div>
 
-            <div class="form-group">
+            <div class="contact__form-group">
               <label for="message">Your Message</label>
               <textarea
                 name="message"
-                class="form-control"
+                class="contact__form-control"
                 rows="4"
                 required
               ></textarea>
@@ -548,7 +534,7 @@
 
             <input
               type="submit"
-              class="form control submit btn-submit"
+              class="contact__form-control submit btn-submit"
               value="Send Message"
             />
           </form>
@@ -556,7 +542,7 @@
       </div>
     </section>
     <footer class="footer">
-      <div class="social-links">
+      <div class="footer__social-links">
         <a href="mailto:beamermichael@googlemail.com" target="_blank">
           <i class="far fa-envelope"></i>
         </a>
@@ -567,7 +553,7 @@
           ><i class="fab fa-github"></i
         ></a>
       </div>
-      <div class="footer-copyright">
+      <div class="footer__copyright">
         © 2021 Michael Beamer. All rights reserved.
       </div>
     </footer>

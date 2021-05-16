@@ -1,24 +1,20 @@
-.skills-grid {
+.skills {
   display: grid;
   grid-template-columns: repeat(6, auto);
+}
 
-  ul {
+.skill {
+  &__title {
+    font-weight: 500;
+  }
+
+  &__list {
     list-style: none;
   }
 
-  li {
+  &__list-item {
     margin: 3px 0;
     font-weight: 200;
     letter-spacing: 2px;
-  }
-
-  .skill-item {
-    h3 {
-      font-weight: 500;
-    }
-  }
-
-  .marginFix {
-    margin-left: 37px;
   }
 }

@@ -6,6 +6,10 @@
   margin-top: 36px;
 }
 
+.mouse {
+  cursor: pointer;
+}
+
 .m_scroll_arrows {
   display: block;
   width: 5px;
@@ -14,8 +18,8 @@
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 
-  border-right: 2px solid $color-font-primary;
-  border-bottom: 2px solid $color-font-primary;
+  border-right: 2px solid $color-primary;
+  border-bottom: 2px solid $color-primary;
   margin: 0 0 3px 4px;
 
   width: 16px;
@@ -70,7 +74,7 @@
   width: 24px;
   border-radius: 14px;
   transform: none;
-  border: 2px solid $color-font-primary;
+  border: 2px solid $color-primary;
   top: 170px;
 }
 
@@ -79,12 +83,12 @@
   width: 2px;
   display: block;
   margin: 5px auto;
-  background: $color-font-primary;
+  background: $color-primary;
   position: relative;
 
   height: 4px;
   width: 4px;
-  border: 2px solid $color-font-primary;
+  border: 2px solid $color-primary;
   -webkit-border-radius: 8px;
   border-radius: 8px;
 }

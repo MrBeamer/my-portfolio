@@ -6,14 +6,12 @@
   padding: 0;
 }
 
-// needs to be organized
-
-.hero-headline {
-  color: $color-primary;
-  font-weight: 500;
-  margin-right: 31px;
-  letter-spacing: 2px;
+//defines what 1 rem is
+html {
+  font-size: 100%;
 }
+
+// needs to be organized
 
 .section {
   transition: transform 1.5s, opacity 1s;
@@ -30,59 +28,13 @@
   transform: translateY(8rem);
 }
 
-.mouse {
-  cursor: pointer;
+.hero-headline {
+  color: $color-primary;
+  font-weight: 500;
+  margin-right: 31px;
+  letter-spacing: 2px;
 }
 
-.content {
-  display: flex;
-}
-
-#left-content {
-  width: 45%;
-  margin-right: 30px;
-}
-
-#left-content p {
-  width: 88%;
-  margin-bottom: 40px;
-}
-
-.typed-headline {
-  margin-top: 20vh;
-  font-size: 4.5em;
-}
-
-.description {
-  text-align: justify;
-  letter-spacing: 1.2;
-  font-weight: 200;
-}
-
-#right-content {
-  width: 54%;
-}
-
-/* typed js */
-
-.typed-cursor {
-  display: none;
-}
-
-.typed-text {
-  height: 110px;
-}
-
-/* form */
-
-input:focus {
-  outline: none !important;
-  border: 1px solid $color-primary;
-  box-shadow: 0 0 2px $color-primary;
-}
-
-textarea:focus {
-  outline: none !important;
-  border: 1px solid $color-primary;
-  box-shadow: 0 0 2px $color-primary;
+.hero-box {
+  grid-row: 1/4;
 }

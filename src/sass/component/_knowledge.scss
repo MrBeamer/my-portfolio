@@ -1,18 +1,29 @@
-.knowledge__grid {
+.knowledge {
   display: grid;
   grid-template-columns: repeat(4, auto);
   grid-column-gap: 22px;
-}
 
-.knowledge__item {
-  border: 2px dotted $color-font-primary;
-  padding: 1rem;
-  transition: background-color 0.5s, color 0.5s;
+  &__item:hover {
+    background-color: $color-primary;
+    color: #ffff;
+  }
 
-  h2 {
+  &__item {
+    border: 2px dotted $color-font-primary;
+    padding: 1rem;
+    transition: background-color 0.5s, color 0.5s;
+  }
+
+  &__title {
     display: inline-block;
     margin: 10px 0;
     font-size: 1.2rem;
+  }
+
+  &__description {
+    font-weight: 200;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
   }
 
   i {
@@ -20,14 +31,4 @@
     margin: 10px 0;
     margin-right: 5px;
   }
-  p {
-    font-weight: 200;
-    letter-spacing: 2px;
-    margin-bottom: 10px;
-  }
-}
-
-.knowledge__item:hover {
-  background-color: $color-primary;
-  color: #ffff;
 }

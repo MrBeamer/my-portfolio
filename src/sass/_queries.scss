@@ -26,11 +26,11 @@
     font-size: 3.5em;
   }
 
-  .skills-grid {
+  .skills {
     grid-column-gap: 22px;
   }
 
-  .card__title p {
+  .card__content p {
     font-size: 0.85rem;
     font-weight: 300;
     padding: 0 0.4rem;
@@ -38,17 +38,17 @@
     text-transform: uppercase;
   }
 
-  .card__tagBox li {
+  .card__tag-box li {
     font-size: 0.7rem;
     margin-top: 4px;
   }
 
-  .card__tags {
+  .card__tag {
     margin: 0 0.1rem;
     padding: 0 0.4rem;
   }
 
-  .card__title i {
+  .card__content i {
     font-size: 1rem;
     margin-left: 6px;
   }
@@ -68,22 +68,19 @@
     display: none;
   }
 
-  .knowledge__grid {
+  .knowledge {
     display: grid;
     grid-template-columns: 1fr;
     grid-row-gap: 22px;
   }
 
-  .skills-grid {
+  .skills {
     display: grid;
     grid-column-gap: 0;
     grid-template-columns: auto auto;
     grid-row-gap: 22px;
     .hero-box {
       grid-column: 1/3;
-    }
-    .marginFix {
-      margin-left: 0;
     }
   }
 
@@ -101,14 +98,14 @@
     width: 100%;
     margin-right: 0;
   }
-  .contact__grid {
+  .contact {
     display: grid;
     grid-template-columns: auto auto;
     grid-row-gap: 22px;
     grid-column-gap: 22px;
   }
 
-  .contact-box {
+  .contact__box {
     grid-row: 2/3;
     width: 100%;
   }
@@ -164,22 +161,19 @@
     margin-right: 0;
   }
 
-  .knowledge__grid {
+  .knowledge {
     display: grid;
     grid-template-columns: 1fr;
     grid-row-gap: 22px;
   }
 
-  .skills-grid {
+  .skills {
     display: grid;
     grid-column-gap: 20px;
     grid-template-columns: 1fr 1fr;
     grid-row-gap: 22px;
     .hero-box {
       grid-column: 1/3;
-    }
-    .marginFix {
-      margin-left: 0;
     }
   }
 
@@ -189,13 +183,13 @@
     grid-row-gap: 22px;
   }
 
-  .contact__grid {
+  .contact {
     display: grid;
     grid-template-columns: 1fr;
     grid-row-gap: 22px;
   }
 
-  .footer-copyright {
+  .footer__copyright {
     display: none;
   }
 
@@ -203,7 +197,7 @@
     width: 48%;
   }
 
-  .card__title p {
+  .card__content p {
     font-size: 0.85rem;
     font-weight: 300;
     padding: 0 0.4rem;
@@ -211,16 +205,16 @@
     text-transform: uppercase;
   }
 
-  .card__tagBox li {
+  .card__tag-box li {
     font-size: 0.7rem;
   }
 
-  .card__tags {
+  .card__tag {
     margin: 0 0.1rem;
     padding: 0 0.4rem;
   }
 
-  .card__title i {
+  .card__content i {
     font-size: 1rem;
     margin-left: 6px;
   }
@@ -230,12 +224,11 @@
     padding: 0 !important;
   }
 
-  .contact-box {
+  .contact__box {
     width: 100%;
   }
 }
 
-// Small phones from 0 - 480 px
 @media only screen and (max-width: 321px) {
   .typed-text .typed-headline {
     font-size: 2.6em;
@@ -259,19 +252,19 @@
     margin-top: 15px;
   }
 
-  .knowledge__item h2 {
+  .knowledge__title {
     font-size: 1.1rem;
   }
 
-  .card__title p {
+  .card__content p {
     font-size: 0.7rem;
   }
 
-  .card__tagBox li {
+  .card__tag-box li {
     font-size: 0.6rem;
   }
 
-  .card__title i {
+  .card__content i {
     font-size: 0.93rem;
   }
 
