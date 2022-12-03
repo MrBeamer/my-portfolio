@@ -19,6 +19,8 @@
     "gatsby-plugin-google-analytics": "^5.2.0",
     "gatsby-plugin-image": "^3.2.0",
     "gatsby-plugin-manifest": "^5.2.0",
+    "gatsby-plugin-mdx": "^5.2.0",
+    "gatsby-plugin-prettier-eslint": "^1.0.6",
     "gatsby-plugin-sharp": "^5.2.0",
     "gatsby-source-filesystem": "^5.2.0",
     "gatsby-transformer-sharp": "^5.2.0",
